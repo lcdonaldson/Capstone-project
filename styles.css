@@ -1,0 +1,50 @@
+/*******************************
+RESETS
+*******************************/
+
+html {
+ box-sizing: border-box;
+ color: #444;
+ font: 12pt 'Open Sans';
+ font-weight: 300;
+}
+
+*, *::before, *::after {
+ box-sizing: inherit;
+ color: inherit;
+}
+
+/*******************************
+DEFAULTS
+*******************************/
+* {
+text-decoration: none;
+}
+
+/*******************************
+LAYOUT
+*******************************/
+.primary-header {
+  height: 130px;
+  position: relative;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.hero { 
+  background: url("one.png");
+/* radial-gradient(rgba(5, 100, 150,  .5), rgba(5, 100, 150, 1)), */
+  background-size: cover; 
+}
+
+.pagename-header {
+  position: absolute;
+  bottom: 30px;
+  right: 0px;
+  left: 0px;
+  text-align: center;
+}
+
+/*******************************
+COMPONENTS
+*******************************/

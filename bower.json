@@ -1,0 +1,22 @@
+{
+  "name": "tips",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lcdonaldson/Capstone-project",
+  "authors": [
+    "Levi Donaldson <lcdbacanas@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "backbone": "~1.2.1",
+    "font-awesome": "~4.4.0"
+  }
+}
