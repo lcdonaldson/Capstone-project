@@ -19,30 +19,119 @@ DEFAULTS
 *******************************/
 * {
 text-decoration: none;
+font-family: Courier;
+}
+
+hr {
+  border: 1.75px solid #7FBBC5;
+  width: 130px;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  padding: 10px;
+  padding-top: 5px;
 }
 
 /*******************************
 LAYOUT
 *******************************/
+
+.hero { 
+  background: radial-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url("one.png");
+/*  */
+  background-size: cover;
+  height: 550px;
+  color: #FFFFFF; 
+}
+
 .primary-header {
   height: 130px;
   position: relative;
   background-color: transparent;
-  padding: 10px;
 }
 
-.hero { 
-  background: url("one.png");
-/* radial-gradient(rgba(5, 100, 150,  .5), rgba(5, 100, 150, 1)), */
-  background-size: cover; 
+.login {
+  width: 60px;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.login button {
+  background: transparent;
+  width: 100px;
+  font-size: 12pt;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border: 1.5px solid #FFFFFF;
+}
+
+nav {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  
 }
 
 .pagename-header {
-  position: absolute;
-  bottom: 30px;
-  right: 0px;
-  left: 0px;
   text-align: center;
+  
+}
+
+.pagename-header h1 {
+  font-size: 110pt;
+  margin-bottom: 0px;
+}
+
+.pagename-header p {
+  font-size: 16pt;
+}
+
+.about-us h1 {
+  font-size: 60px;
+}
+
+.fa-chevron-circle-down {
+  margin-top: 40px;
+}
+
+.fa-chevron-circle-down p {
+  font-size: 10pt;
+  background: transparent;
+  margin-top: 5px;
+}
+
+.fa-refresh, .fa-lock, .fa-flash {
+  padding-left: 30px;
+}
+
+h3 {
+  color: #797979;
+  font-size: 25px;
+}
+
+.tile {
+  display: inline-block;
+  margin-left: 103px;
+  padding-top: 20px;
+  padding: 26px;
+  text-align: center;
+  vertical-align: middle;
+  color: #7FBBC5;
+
+}
+
+.tile h3 {
+  margin-left: -5px;
+}
+
+.fa-flash, .fa-lock, .fa-refresh {
+  margin-left: -40px;
+
 }
 
 /*******************************

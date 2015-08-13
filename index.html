@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>TIPS</title>
     <link rel="stylesheet" href="styles.css" class=""></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"></link>
-	<script src=""></script>
-  <script src="index.js"></script>
-
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
 </head>
 <body>
-	<div class="panel hero">
-   <div>
-     <div class="primary header">
-       <button class"login">Login</button>
+  <div class="panel hero">
+    <div>
+      <div class="primary header">
+        <div class="login">
+          <button>Login</button>
+        </div>
         <nav>
           <a href="#">Home</a>
           <a href="#">About Us</a>
@@ -21,13 +21,45 @@
           <a href="#">Testimonials</a>
           <a href="#">Contact Us</a>
         </nav>
-     </div>
-     <div clas="pagename-header">
-       <h1>Tips</h1>
-       <p>verb \ˈtɪpˌs \ (-pp-)</p>
-       <p>1. Teacher informed police software</p>
-     </div>
-   </div> 
+      </div>
+
+      <div class="pagename-header">
+        <h1>tips</h1>
+        <p>verb \ˈtɪpˌs \ (-pp-)</p>
+        <p>1. Teacher informed police software</p>
+        <i class="fa fa-chevron-circle-down fa-3x">
+          <p>scroll for more</p>
+        </i>
+      </div> 
+    </div> 
   </div>
+
+  <div class="panel about-us">
+    <h1>Our Mission</h1>
+    <hr>
+
+    <div class="tile communication">
+      <i class="fa fa-refresh fa-4x"></i>
+      <h3>Communication</h3>
+      <p>We provide silent, <br>effective communication <br>between teachers and<br> Law Enforcement during<br> lock-down situations</p>
+    </div>
+
+    <div class="tile safety"> 
+      <i class="fa fa-lock fa-4x"></i>
+      <h3>Safety</h3>
+      <p>Our Software lets <br>teachers give immediate <br>status updates to police<br> about their current<br> class situation</p>
+    </div>
+
+    <div class="tile speed">
+      <i class="fa fa-flash fa-4x"></i>
+      <h3>Speed</h3>
+      <p>The Tips application <br>takes the lost time<br> and guess work<br> out of lock-downs,<br> dramatically decreasing <br>wasted time</p>
+    </div> 
+  </div>
+
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/underscore/underscore.js"></script>
+  <script src="/bower_components/backbone/backbone.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
