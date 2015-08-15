@@ -36,22 +36,34 @@ a {
   padding-top: 5px;
 }
 
+nav {
+  position: fixed;
+  top: 15px;
+  right: 10px;
+}
+
+.panel > div {
+  width: 1000px;
+  min-height: 500px;
+  margin: auto;
+  /*background-color: blue;*/
+}
+
 /*******************************
 LAYOUT
 *******************************/
 
-.hero { 
+
+.hero {
   background: radial-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url("one.png");
-/*  */
   background-size: cover;
-  height: 550px;
   color: #FFFFFF; 
 }
+
 
 .primary-header {
   height: 130px;
   position: relative;
-  background-color: transparent;
 }
 
 .login {
@@ -59,9 +71,11 @@ LAYOUT
   padding-top: 10px;
   margin-top: 0px;
   margin-left: 10px;
+  background-color: transparent;
 }
 
-.login button {
+.login > button {
+  position: fixed;
   background: transparent;
   width: 100px;
   font-size: 12pt;
@@ -70,16 +84,8 @@ LAYOUT
   border: 1.5px solid #FFFFFF;
 }
 
-nav {
-  position: absolute;
-  top: 15px;
-  right: 10px;
-  
-}
-
 .pagename-header {
-  text-align: center;
-  
+  text-align: center;  
 }
 
 .pagename-header h1 {
@@ -89,10 +95,6 @@ nav {
 
 .pagename-header p {
   font-size: 16pt;
-}
-
-.about-us h1 {
-  font-size: 60px;
 }
 
 .fa-chevron-circle-down {
@@ -105,35 +107,157 @@ nav {
   margin-top: 5px;
 }
 
-.fa-refresh, .fa-lock, .fa-flash {
-  padding-left: 30px;
+
+
+
+.about-us > div {
+  text-align: center;
 }
 
-h3 {
+.about-us h1 {
+  font-size: 60px;
+}
+
+.about-us h3 {
   color: #797979;
   font-size: 25px;
 }
 
 .tile {
+  vertical-align: top;
   display: inline-block;
-  margin-left: 103px;
-  padding-top: 20px;
-  padding: 26px;
-  text-align: center;
-  vertical-align: middle;
+  /*background-color: green;*/
   color: #7FBBC5;
-
+  width: 200px;
+  margin: 60px;
+}
+.tile > p {
+  text-align: middle;
+  padding: 10px;
+  font-size: 18px;
 }
 
-.tile h3 {
-  margin-left: -5px;
+
+
+
+/***********************SERVICES**********************/
+
+.services {
+  background-color: #F5F5F5;
 }
 
-.fa-flash, .fa-lock, .fa-refresh {
-  margin-left: -40px;
-
+.services > div {
+  text-align: center;
 }
+
+.services h1 {
+  font-size: 60px;
+  padding-top: 40px;
+}
+
+.services .breakout {
+  background-color: white;
+  display: inline-block;
+  width: 160px;
+  margin: 60px;
+}
+
+.breakout > img {
+  border-bottom: 6px solid #F5F5F5;
+}
+
+.title {
+  margin: -4px;
+}
+
+.fa-graduation-cap, .fa-car, .fa-university {
+  /*padding-top: 5px;*/
+  color: #666666;
+  background-color: #F5F5F5;
+  border: 7px solid transparent;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+}
+/***********************SERVICES**********************/
+
+
+.testimonials {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.testimonials h1 {
+  font-size: 60px;
+}
+
+.endorse img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #7FBBC5;
+}
+
+.endorse p {
+  min-height: 40px;
+  width: 108px;
+  border: 1px solid transparent;
+  font-family: Courier bold;
+  font-weight: bold;
+  font-size: 14px;
+  color: #7FBBC5;
+}
+
+.endorse:nth-child(even) {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+  vertical-align: top;
+}
+
+.endorse:nth-child(odd) {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 140px; 
+}
+
+span {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 
 /*******************************
 COMPONENTS
 *******************************/
+
+/*#trianle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+}*/
+
+
+
+/*.page {
+  background-color: blue;
+}
+
+.view {
+  width: 960px;
+  margin: auto;
+  background-color: pink;
+}
+.blur {
+  margin: auto;
+  margin-top: 12%;
+  padding: 105px 0px 0px 130px;
+  height: 300px;
+  width: 470px;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.hide {
+  border-color: transparent;
+}*/
