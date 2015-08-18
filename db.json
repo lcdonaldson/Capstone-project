@@ -1,1 +1,38 @@
-{}
+{
+  "users": [
+    {
+      "id": 1,
+      "type": "teacher",
+      "name": ""
+    },
+    {
+      "id": 2,
+      "type": "police"
+    },
+    {
+      "id": 3,
+      "type": "admin",
+      "name": ""
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "status": "good",
+      "time": "",
+      "confirmation": true
+    },
+    {
+      "id": 2,
+      "status": "missing",
+      "time": "",
+      "confirmation": true
+    },
+    {
+      "id": 3,
+      "status": "help",
+      "time": "",
+      "confirmation": true
+    }
+  ]
+}

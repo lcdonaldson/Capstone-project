@@ -3,27 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>TIPS</title>
-    <link rel="stylesheet" href="styles.css" class=""></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"></link>
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
+    <link rel="stylesheet" href="styles.css" class=""></link>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/underscore/underscore.js"></script>
+    <script src="/bower_components/backbone/backbone.js"></script>
 </head>
 <body>
   <div class="panel hero">
     <div>
       <div class="primary header">
+        <a name="home"> </a>
         <div class="login">
           <button>
             <a href="/login.html">Login</a>
           </button>
         </div>
+        
         <nav>
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="/login.html">Services</a>
-          <a href="#">Testimonials</a>
+          <a href="#home">Home</a>
+          <a href="#about-us">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#testimonials">Testimonials</a>
           <a href="#">Contact Us</a>
         </nav>
       </div>
+      
       <div class="pagename-header">
         <h1>tips</h1>
         <p>verb \ˈtɪpˌs \ (-pp-)</p>
@@ -37,7 +43,7 @@
 
   <div class="panel about-us">
     <div>
-      <h1>Our Mission</h1>
+      <h1><a name="about-us"></a>Our Mission</h1>
       <hr>
       <div class="tile communication">
         <i class="fa fa-refresh fa-4x"></i>
@@ -59,78 +65,80 @@
     </div> 
   </div>
 
-
-
   <div class="panel services">
     <div>
-      <h1>Services</h1>
+      <h1><a name="services"></a>Services</h1>
       <hr>
       <div class="breakout teachers">
-        <img src="admin.png" alt="">
+        <img src="images/teacher4.png" alt="">
         <div class="title">
           <i class="fa fa-graduation-cap"></i>
-          <h2>Teacher</h2>
+          <div class="trick"> </div>
+          <h2>Teachers</h2>
         </div>
       </div>
 
-      <div class="breakout police">
-        <img src="admin.png" alt="">
+      <div class="breakout cop">
+        <img src="images/cop.png" alt="">
         <div class="title">
           <i class="fa fa-car"></i>
+          <div class="trick"> </div>
           <h2>Police</h2>
         </div>
       </div>
 
       <div class="breakout admin">
-        <img src="admin.png" alt="">
+        <img src="images/admin.png" alt="">
         <div class="title">
           <i class="fa fa-university"></i>
+          <div class="trick"> </div>
           <h2>Admin</h2>
         </div>
       </div>
     </div>
   </div>
 
-
-
-
-
-
-
   <div class="panel testimonials">
     <div>  
-      <h1>Testimonials</h1>
+      <h1><a name="testimonials">Testimonials</a></h1>
       <hr>
       <div class="endorse">  
-        <img src="tst.png" alt="">
+        <img src="images/tst.png" alt="">
           <p><em><span>"G</span>reatly improves down time in drills... <br> Brady"</em></p>
       </div>
 
       <div class="endorse">  
-        <img src="tst2.png" alt=""> 
+        <img src="images/tst2.png" alt=""> 
           <p><em><span>"T</span>his old mutt likes to roll in the dirt...<br> Tom"</em></p>
       </div>
 
       <div class="endorse">  
-        <img src="tst3.png" alt="">  
+        <img src="images/tst3.png" alt="">  
           <p><em><span>T</span>his old mutt likes to roll in the dirt...<br> Gina</em></p>
       </div>
 
       <div class="endorse">  
-        <img src="tst4.png" alt="">  
+        <img src="images/tst4.png" alt="">  
           <p><em><span>T</span>his old mutt likes to roll in the dirt... <br> Tanya <em></p>
       </div>
 
       <div class="endorse">  
-        <img src="tst5.png" alt=""> 
+        <img src="images/tst5.png" alt=""> 
           <p><em><span>T</span>his old mutt likes to roll in the dirt...<br> Kevin</em></p>
       </div>
     </div>  
   </div>
 
-  <script src="/bower_components/jquery/dist/jquery.js"></script>
-  <script src="/bower_components/underscore/underscore.js"></script>
-  <script src="/bower_components/backbone/backbone.js"></script>
-  <script src="index.js"></script>
+  <footer>
+    <div>
+      HEY THERE
+    </div>
+  </footer>
+
+  <!-- <script src="Models/user.js"></script>
+  <script src="Models/room.js"></script>
+  <script src="Collections/users.js"></script>
+  <script src="Collections/rooms.js"></script>
+  <script src="index.js"></script> -->
 </body>
 </html>
