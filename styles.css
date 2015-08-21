@@ -49,6 +49,16 @@ nav {
   right: 10px;
 }
 
+/*.navigation {
+  position: fixed;
+  height: 44px;
+  width: 555px;
+  top: 5px;
+  right: 4px;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 15px;
+}*/
+
 .panel > div {
   width: 1000px;
   min-height: 500px;
@@ -109,15 +119,93 @@ LAYOUT   (PANELS)
 
 /******* CONTACT US *******/
 
+.contact-us {
+  background-color: #F5F5F5;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.contact-us > div {
+  padding-bottom: 15px;
+}
+
+.contact-us > div > p {
+  font-size: 18pt;
+  margin: 25px;
+  text-align: center;
+  color: #BCBCBC;
+}
+
+.contact-us > div > h1 {
+  font-size: 40pt;
+}
+
+.contact-form {
+  padding-top: 15px;
+  margin: 0 auto;
+  width: 750px;
+}
+
+.input {
+  vertical-align: top;
+  display: inline-block;
+  width: 372px;
+}
+
+.message {
+  display: inline-block;
+  width: 363px;
+  padding: 7px;
+  vertical-align: top;
+}
+
+.message > input {
+  margin-top: 5px;
+  padding-bottom: 100px;
+  width: 340px;
+  height: 133px;
+  background-color: #FFFFFF;
+}
+
+.input-boxes {
+  margin: 11px;
+  width: 350px;
+  height: 30px;
+  background-color: #FFFFFF; 
+}
+
+.msg-btn {
+  width: 80px;
+  margin: 11px auto;
+}
+
+.msg-sent {
+  padding: 4px;
+  margin-left: -23px;
+  width: 120px;
+  text-align: center;
+  background-color: #777;
+  color: #E3E3E3;
+}
+
+.glyph {
+  width: 50px;
+  height: 41px;
+  background-color: orange;
+  margin: 0 auto;
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+}
 
 /******* FOOTER *******/
 
 footer {
-  background-color: rgba(26, 26, 26, .65);
-  color: #BABABA;
-  height: 150px;
+  margin: 0 auto;
+  background-color: #1A1A1A;
+  color: #BCBCBC;
+  min-height: 200px;
 }
-
 
 /*******************************
 COMPONENTS
@@ -125,7 +213,7 @@ COMPONENTS
 
 /************* HERO *************/
 .hero {
-  background: radial-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url("images/one.png");
+  background: radial-gradient(rgba(26, 26, 26, .5), rgba(26, 26, 26, .2)), url("images/one.png");
   background-size: cover;
   color: #FFFFFF;
   min-height: 700px; 
@@ -152,13 +240,14 @@ COMPONENTS
 
 .fa-chevron-circle-down {
  position: absolute;
- bottom: 5px;
+ bottom: 15px;
+ margin: 5px;
  right: 50px;
  left: 50px;
  }
 
 .fa-chevron-circle-down p {
-  font-size: 9pt;
+  font-size: 11pt;
   background: transparent;
   width: 140px;
   margin: 0 auto;
@@ -170,12 +259,12 @@ COMPONENTS
 /************* About-Us *************/
 
 .about-us h1 {
-  font-size: 50px;
+  font-size: 40pt;
 }
 
 .about-us h3 {
   color: #797979;
-  font-size: 25px;
+  font-size: 20pt;
 }
 
 .tile {
@@ -189,13 +278,13 @@ COMPONENTS
 .tile > p {
   text-align: center;
   padding: 10px;
-  font-size: 16px;
+  font-size: 12pt;
 }
 
 /************ SERVICES **************/
 
 .services h1 {
-  font-size: 50px;
+  font-size: 40pt;
   padding-top: 40px;
 }
 
@@ -222,6 +311,7 @@ COMPONENTS
   border: 7px solid transparent;
   height: 5px;
 }
+/****** upside down house look in tiles *******/
 
 .trick {
   width: 0;
@@ -235,7 +325,7 @@ COMPONENTS
 /********** Testimonials ***********/
 
 .testimonials h1 {
-  font-size: 50px;
+  font-size: 40pt;
 }
 
 .endorse img {
@@ -247,17 +337,17 @@ COMPONENTS
 
 .endorse p {
   min-height: 40px;
-  width: 108px;
+  width: 118px;
   border: 1px solid transparent;
   font-family: Courier bold;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12pt;
   color: #7FBBC5;
 }
 
 .endorse:nth-child(even) {
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 30px;
   margin-top: 40px;
   vertical-align: top;
 }
@@ -269,70 +359,67 @@ COMPONENTS
 }
 
 span {
-  font-size: 20px;
+  font-size: 28pt;
   font-weight: lighter;
 }
 
-/********** Contact Us ***********/
+/************* Contact Us ***********/
 
-
-.page {
-  background-color: #C6DDE6;
-  border: 3px solid black;
-  text-align: center;
-
-}
-
-.page > div {
-  width: 1060px;
-  /*height: 1000px;*/
-  display: inline-block;
-
-  text-align: center;
-}
-
-.blur {
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding: 40px;
-  height: 400px;
-  width: 550px;
-  background-color: #fff;
-  border-radius: 4px;
-}
+/************** LOGIN ****************/
 
 .user-login {
-  margin-top: 100px;
-}
-
-.user-login > button {
+  text-align: center;
+  margin: auto;
+  margin-top: 120px;
+  height: 300px;
+  width: 450px;
+  background-color: #fff;
   border-radius: 4px;
-  background-color: #F5F5F5;
+  background-color: lightblue;
+  position: relative;
 }
 
-.hide {
-  border-color: yellow;
+.user-selection {
+  padding: 10px;
+  width: 85px;
+  position: absolute;
+  bottom: 237px;
+  right: 134px;
 }
 
+.user-dropdown {
 
-/*********** google maps *************/
+}
 
-/*#map-canvas {
+.access {
   margin: 0 auto;
-  margin-top: 20px;
-  height: 70%;
-  width: 100%;
-}*/
+  padding-top: 100px;
+  height: 45px;
+  width: 245px;
+}
 
-/*************************************/
+.choose-user {
+  background-color: green;
+}
+
+.access > input {
+  margin: 10px;
+  /*-webkit-box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
+  -moz-box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
+  box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);*/
+  border: none;
+  border-radius: 8px;
+}
+
+
+/*****************************************/
 
 .police {
-  background-color: #7FBBC5;
+  background-color: #E0F8FF;
 }
 
 .police > div {
-  background-color: #FFFFFF;
+  background-color: #fff;
   width: 1000px;
   margin: 0 auto;
   position: relative;
@@ -610,9 +697,6 @@ span {
   bottom: 255px;
 }
 
-p.room-status {
-  font-size: 16pt;
-}
 
 .time > hr {
   width: 185px;
@@ -629,14 +713,151 @@ p.room-status {
   width: 200px;
 }
 
+/**************** TEACHERS **************/
+
+.template {
+  background-color: #E0F8FF;
+  text-align: center;
+}
+
+.template > div {
+  width: 1060px;
+  min-height: 600px;
+  display: inline-block;
+  background-color: rgba(26, 26, 26, .0);
+  text-align: center;
+}
+
 .teacher-request {
   text-align: center;
 }
 
 .teacher-request > form {
   display: inline-block;
-  width: 600px;
-  height: 400px;
+  width: 700px;
   margin: 0 auto;
-  padding-top: 165px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.teacher-request > form > h1 {
+  font-size: 30pt;
+  color: rgba(0, 0, 0, .6);
+}
+
+.room-dropdown {
+  width: 150px;
+}
+
+.drop-option {
+  font-size: 14pt;
+  padding: 5px;
+}
+
+form > h3 {
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  color: rgba(0, 0, 0, .7);
+}
+
+.btn-group {
+  margin: 0 auto;
+  width: 680px;
+}
+
+.btn-group > label {
+  padding: 12px;
+  margin: 12px 5px;
+  width: 200px;
+  display: inline-block;
+  /*color: rgba(26, 26, 26, .7);*/
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14pt;
+  border: none;
+  -webkit-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+}
+
+.btn-group > label i.fa {
+  display: none;
+}
+
+.btn-group input:checked + .good {
+  background-color: rgba(36, 243, 4, 0.64);
+  color: white;
+}
+
+.btn-group input:checked + .missing {
+  background-color: #CCCC00;
+  color: white;
+}
+
+.btn-group input:checked + .help {
+  background-color: red;
+  color: white;
+}
+
+.btn-group input:checked + label i.fa {
+  display: inline-block;
+}
+
+input[type=radio]{
+  display: none;
+} 
+
+.good {
+  background-color: transparent;
+  color: rgba(36, 243, 4, 1.99);
+}
+
+
+.missing {
+  background-color: transparent;
+  color: #CCCC00;
+}
+
+.help {
+  background-color: transparent;
+  color: red;
+}
+
+.confirm {
+  margin-top: 80px;
+  font-size: 14pt;
+}
+
+.confirm > input {
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  box-shadow: inset 0px 0px 32px -9px rgba(0,0,0,0.6);
+}
+
+/********************* THANK YOU ***********************/
+
+.thank-you {
+  padding-top: 150px;
+}
+
+.thank-you > h1 {
+  font-size: 50pt;
+}
+
+.thank-you-btn {
+  color: #fff;
+  border: none;
+  font-size: 14pt;
+  border-radius: 8px;
+  background-color: green;
+  -webkit-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  box-shadow: inset 0px 0px 32px -9px rgba(0,0,0,0.6);
+}
+
+.thank-you-btn {
+
 }

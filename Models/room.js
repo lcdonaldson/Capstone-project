@@ -1,11 +1,10 @@
 
-
 var RoomModel = Backbone.Model.extend({
 
   default: {
       id: null,
       status: null,
-      time: null,
+      "last reported time": null,
       confirmation: null
   },
   url: function () {

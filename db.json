@@ -3,36 +3,160 @@
     {
       "id": 1,
       "type": "teacher",
-      "name": ""
+      "name": "",
+      "email": ""
     },
     {
       "id": 2,
-      "type": "police"
+      "type": "police",
+      "name": "",
+      "email": ""
     },
     {
       "id": 3,
       "type": "admin",
-      "name": ""
+      "name": "",
+      "email": ""
+    }
+  ],
+  "statusId": [
+    {
+      "id": 0,
+      "name": "unreported"
+    },
+    {
+      "id": 1,
+      "name": "good"
+    },
+    {
+      "id": 2,
+      "name": "missing student"
+    },
+    {
+      "id": 3,
+      "name": "help"
     }
   ],
   "rooms": [
     {
+      "id": null,
+      "name": null,
+      "statusId": null,
+      "lastreportedtime": null
+    },
+    {
       "id": 1,
-      "status": "good",
-      "time": "",
-      "confirmation": true
+      "name": "room 51",
+      "statusId": 1,
+      "lastreportedtime": 1440108909692
     },
     {
       "id": 2,
-      "status": "missing",
-      "time": "",
-      "confirmation": true
+      "name": "room 52",
+      "statusId": 0,
+      "lastreportedtime": ""
     },
     {
       "id": 3,
-      "status": "help",
-      "time": "",
-      "confirmation": true
+      "name": "room 53",
+      "statusId": 1,
+      "lastreportedtime": 1440105663621
+    },
+    {
+      "id": 4,
+      "name": "room 54",
+      "statusId": 1,
+      "lastreportedtime": 1440096583988
+    },
+    {
+      "id": 5,
+      "name": "room 55",
+      "statusId": 1,
+      "lastreportedtime": 1440096732664
+    },
+    {
+      "id": 6,
+      "name": "room 56-57",
+      "statusId": 0,
+      "lastreportedtime": ""
+    },
+    {
+      "id": 7,
+      "name": "room 216",
+      "statusId": 1,
+      "lastreportedtime": 1440121023644
+    },
+    {
+      "id": 8,
+      "name": "room 302",
+      "statusId": 1,
+      "lastreportedtime": 1440096692552
+    },
+    {
+      "id": 9,
+      "name": "room 303",
+      "statusId": 1,
+      "lastreportedtime": 1440092431251
+    },
+    {
+      "id": 10,
+      "name": "room 309",
+      "statusId": 1,
+      "lastreportedtime": 1440125240892
+    },
+    {
+      "id": 11,
+      "name": "room 312",
+      "statusId": 0,
+      "lastreportedtime": ""
+    },
+    {
+      "id": 12,
+      "name": "office",
+      "statusId": 1,
+      "lastreportedtime": 1440112076193
+    },
+    {
+      "id": 13,
+      "name": "weights",
+      "statusId": 2,
+      "lastreportedtime": 1440111274111
+    },
+    {
+      "id": 14,
+      "name": "band",
+      "statusId": 0,
+      "lastreportedtime": ""
+    },
+    {
+      "id": 15,
+      "name": "old gym",
+      "statusId": 3,
+      "lastreportedtime": 1440092437744
+    },
+    {
+      "id": 16,
+      "name": "new-gym",
+      "statusId": 3,
+      "lastreportedtime": 1440093541309
+    },
+    {
+      "id": 17,
+      "name": "library",
+      "statusId": 3,
+      "lastreportedtime": 1440123787102
+    },
+    {
+      "id": 18,
+      "name": "girls",
+      "statusId": 1,
+      "lastreportedtime": 1440123850503
+    },
+    {
+      "id": 19,
+      "name": "boys",
+      "statusId": 3,
+      "lastreportedtime": 1440111244963
     }
   ]
 }

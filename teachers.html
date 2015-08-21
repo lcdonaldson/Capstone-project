@@ -6,25 +6,56 @@
     <link rel="stylesheet" href="styles.css" class=""></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"></link>
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/handlebars/handlebars.js"></script>
+    <script src="/bower_components/underscore/underscore.js"></script>
+    <script src="/bower_components/backbone/backbone.js"></script>
 </head>
 <body>
-  <div class="panel page">
+  <div class="panel template">
     <div>  
       <div class="teacher-request">
-        <form>
-          <h1>T E A C H E R S</h1>
-          <p>ROOM:</p>
-          <input type="username" name="find" size="20" placeholder="username">
-          <!-- <hr class="hide"> -->
-          <p>TEACHER:</p>
-          <input type="password" name="find" size="20" placeholder="password"><br> <br>
-          <button>Submit</button>
+        <form method="GET" action="" class="room-teacher-options">
+          <h1>TEACHERS</h1>
+
+          <div class="drop-option"> Room:
+            <select class="room-dropdown" name="product" required></select>
+          </div>
+          <h3>What is your class status right now? </h3>
+          <div class="btn-group">
+            <input type="radio" name="status" id="good" value="1">
+            <label for="good" class="status good"> Good</label>
+            <input type="radio" name="status" id="missing" value="2">
+            <label for="missing" class="status missing"> Missing Student</label>
+            <input type="radio" name="status" id="help" value="3">
+            <label for="help" class="status help"> Help</label>
+          </div>
+
+          <div class="confirm">             
+            <input type="password" name="pswd" placeholder="Password">
+            <input type="submit" value="Confirm">
+          </div>
         </form>
       </div>
     </div>
     <footer>
-      HEY
+      <a href="http://localhost:8080/teachers.html">teachers</a>
+      <a href="http://localhost:8080/police.html">police</a>
+      <a href="http://localhost:8080/admin.html">admin</a>
+      <a href="http://localhost:8080/index.html">home</a>
     </footer>
-  </div> 
+  </div>
+
+  <script type="text/x-handlebars-template" id="hbs">
+    {{#each this}}
+      <option value="{{id}}">{{name}}</option>
+    {{/each}}  
+  </script>
+
+  <script src="Models/user.js"></script>
+  <script src="Models/room.js"></script>
+  <script src="Collections/users.js"></script>
+  <script src="Collections/rooms.js"></script>
+  <script src="index.js"></script> 
 </body>
 </html> 

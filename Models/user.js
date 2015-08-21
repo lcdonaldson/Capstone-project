@@ -4,8 +4,8 @@ var UserModel = Backbone.Model.extend({
 
   default: {
       id: 1,
-      type: "teacher",
-      name: ""
+      type: null,
+      name: null
   },
   url: function () {
     var baseUrl = 'http://localhost:3000/users/'

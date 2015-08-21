@@ -5,14 +5,15 @@
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/handlebars/handlebars.js"></script>
+  <script src="/bower_components/underscore/underscore.js"></script>
+  <script src="/bower_components/backbone/backbone.js"></script>
 </head>
 <body>
- <!--  <div id="map-canvas"></div> -->
   <div class="panel police">
     <div>
       <div class="map">
-        <!-- <img src="/images/PimaMap.png" alt=""> -->
-
         <div class="main-st"><br><br><br>M<br>a<br>i<br>n</div>
 
         <div class="hs-cte"> CTE
@@ -62,20 +63,29 @@
         <hr>
         <h1>Pima</h1>
         <hr>
-        <p class="room-status">green</p>
-        <p class="room-status">green</p>
-        <p class="room-status">green</p>
-        <p class="room-status">green</p>
-        <p class="room-status">green</p>
-        <p class="room-status">green</p> 
+        <ul>
+          
+        </ul>
       </div>
-
-      <footer></footer>
+      <footer>
+        <a href="http://localhost:8080/teachers.html">teachers</a>
+        <a href="http://localhost:8080/police.html">police</a>
+        <a href="http://localhost:8080/admin.html">admin</a>
+        <a href="http://localhost:8080/index.html">home</a>
+      </footer>
     </div>
   </div>
 
-  <!-- <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
-  <script src="index.js"></script>
+  <script type="text/x-handlebars-template" id="hbs">
+    {{#each this}}
+      <option value="{{id}}">{{name}}</option>
+    {{/each}}  
+  </script>
 
+  <script src="Models/user.js"></script>
+  <script src="Models/room.js"></script>
+  <script src="Collections/users.js"></script>
+  <script src="Collections/rooms.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>

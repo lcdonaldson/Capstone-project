@@ -6,30 +6,45 @@
     <link rel="stylesheet" href="styles.css" class=""></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"></link>
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/handlebars/handlebars.js"></script>
+    <script src="/bower_components/underscore/underscore.js"></script>
+    <script src="/bower_components/backbone/backbone.js"></script>
 </head>
 <body>
-  <div class="page">
-    <div>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Services</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Contact Us</a>
-      </nav>
-      <div class="blur">
-        <div class="user-login">
-          <input type="username" name="find" size="20" placeholder="username">
-          <hr class="hide">
-          <input type="password" name="find" size="20" placeholder="password"><br> <br>
-          <button>Submit</button>
-        </div>
+ <div class="panel template">
+    <div>  
+      <div class="user-login">
+        <form method="GET" action="formprocessor.html" class="user-options">
+          <div class="access">             
+            <input class="fields" type="text" name="name" placeholder="username" required>
+            <input class="fields"type="password" name="pswd" placeholder="Password" required>
+            <input class="fields" type="submit" value="Enter">
+          </div>
+          <div class="user-selection">
+            User
+            <select class="user-dropdown" name="product" required>
+              <option value="">[ Choose your user type ]</option>
+              <option>Teacher</option>
+              <option>Admin</option>
+              <option>Police</option>
+            </select>
+          </div>
+        </form>
       </div>
     </div>
     <footer>
-      HEY
+      <a href="http://localhost:8080/teachers.html">teachers</a>
+      <a href="http://localhost:8080/police.html">police</a>
+      <a href="http://localhost:8080/admin.html">admin</a>
+      <a href="http://localhost:8080/index.html">home</a>
     </footer> 
-  </div> 
+  </div>
+  <script src="Models/user.js"></script>
+  <script src="Models/room.js"></script>
+  <script src="Collections/users.js"></script>
+  <script src="Collections/rooms.js"></script>
+  <script src="index.js"></script> 
 </body>
 </html>  
         
