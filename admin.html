@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="styles.css" class=""></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"></link>
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/handlebars/handlebars.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/underscore/underscore.js"></script>
     <script src="/bower_components/backbone/backbone.js"></script>
+    <!-- <script src="/bower_components/moment/moment.js"></script> -->
 </head>
 <body>
   <div class="panel template">
@@ -24,13 +25,33 @@
         </form>
       </div>
     </div>
-    <footer>
-      <a href="http://localhost:8080/teachers.html">teachers</a>
-      <a href="http://localhost:8080/police.html">police</a>
-      <a href="http://localhost:8080/admin.html">admin</a>
-      <a href="http://localhost:8080/index.html">home</a>
-    </footer>
+
   </div>
+  <footer>
+    <a href="http://localhost:8080/teachers.html">teachers</a>
+    <a href="http://localhost:8080/police.html">police</a>
+    <a href="http://localhost:8080/admin.html">admin</a>
+    <a href="http://localhost:8080/index.html">home</a>
+  </footer>
+  <script type="text/x-handlebars-template" id="hbs">
+    {{#each this}}
+      <option value="{{id}}">{{name}}</option>
+    {{/each}}  
+  </script>
+
+  <script type="text/x-handlebars-template" id="output">
+    <ul>
+    {{#each rooms}}
+    <br>
+    <br>
+      Mr. Cooper
+      <li data-id="{{id}}">{{name}}</li>
+      <li> *<b><em>{{statusState}}</em></b>* </li>
+      <li>{{lastreportedtime}}</li>
+      <input type="checkbox" class="checkbox"></input>
+    {{/each}} 
+    </ul> 
+  </script>
 
   <script src="Models/user.js"></script>
   <script src="Models/room.js"></script>

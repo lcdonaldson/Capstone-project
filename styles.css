@@ -7,7 +7,7 @@ html {
  color: #444;
  font: 12pt 'Open Sans';
  font-weight: 300;
- /*height: 100%;*/
+ height: 100%;
 }
 
 *, *::before, *::after {
@@ -43,21 +43,21 @@ a {
   padding-top: 5px;
 }
 
-nav {
+.clear {
   position: fixed;
   top: 15px;
   right: 10px;
 }
 
-/*.navigation {
+.solid {
   position: fixed;
-  height: 44px;
-  width: 555px;
-  top: 5px;
-  right: 4px;
-  background-color: rgba(0,0,0,0.4);
-  border-radius: 15px;
-}*/
+  text-align: right;
+  padding-top: 15px;
+  height: 64px;
+  width: 100%;
+  top: 0px;
+  background-color: #555555;
+}
 
 .panel > div {
   width: 1000px;
@@ -191,20 +191,34 @@ LAYOUT   (PANELS)
 .glyph {
   width: 50px;
   height: 41px;
-  background-color: orange;
+  background-color: #C2C2C2;
   margin: 0 auto;
-  margin: 10px;
   text-align: center;
-  padding: 5px;
+  padding-top: 5px;
 }
 
+.address {
+  font-size: 14pt;
+  width: 180px;
+  text-align: center;
+  padding-top: 0px;
+  margin: 0px auto;
+}
+
+.social {
+  letter-spacing: 33px;
+  text-align: center;
+  padding-top: 0px;
+  margin: 0px;
+}
 /******* FOOTER *******/
 
 footer {
   margin: 0 auto;
   background-color: #1A1A1A;
   color: #BCBCBC;
-  min-height: 200px;
+  min-height: 230px;
+
 }
 
 /*******************************
@@ -453,6 +467,18 @@ span {
   bottom: 114px;
   left: 33px;
 }
+
+.status-good {
+  background-color: green;
+}
+
+.status-missing-student {
+  background-color: yellow;
+}
+
+.status-help {
+  background-color: red;
+}
 /************ CTE ***************/
 .hs-cte {
   border: .15em solid black;
@@ -465,7 +491,7 @@ span {
   right: 152px;
 }
 
-.fifty-three {
+.room.fifty-three {
   border: .15em solid black;
   height: 28px;
   width: 40px;
@@ -474,7 +500,7 @@ span {
   right: 38px;
 }
 
-.fifty-four {
+.room.fifty-four {
   border: .15em solid black;
   height: 28px;
   width: 35px;
@@ -483,7 +509,7 @@ span {
   right: 79px;
 }
 
-.fifty-two {
+.room.fifty-two {
   border: .15em solid black;
   height: 28px;
   width: 33px;
@@ -492,7 +518,7 @@ span {
   right: 4px;
 }
 
-.fifty-five {
+.room.fifty-five {
   border: .15em solid black;
   height: 28px;
   width: 32px;
@@ -501,7 +527,7 @@ span {
   right: 138px;
 }
 
-.fifty-six-seven {
+.room.fifty-six-seven {
   border: .15em solid black;
   height: 28px;
   width: 58px;
@@ -510,7 +536,7 @@ span {
   right: 82px;
 }
 
-.fifty-one {
+.room.fifty-one {
   border: .15em solid black;
   height: 20px;
   width: 39px;
@@ -530,7 +556,7 @@ span {
   right: 457px
 }
 
-.LR {
+.room.LR {
   border: .15em solid black;
   height: 32px;
   width: 30px;
@@ -539,7 +565,7 @@ span {
   right: 150px;
 }
 
-.three-o-three {
+.room.three-o-three {
   border: .15em solid black;
   height: 32px;
   width: 50px;
@@ -548,7 +574,7 @@ span {
   right: 95px;
 }
 
-.three-o-nine {
+.room.three-o-nine {
   border: .15em solid black;
   height: 34px;
   width: 45px;
@@ -557,7 +583,7 @@ span {
   right: 37px;
 }
 
-.MR {
+.room.MR {
   border: .15em solid black;
   height: 34px;
   width: 30px;
@@ -569,7 +595,7 @@ span {
   margin-top: 42px;
   margin-left: 42px;
 }
-.three-o-two {
+.room.three-o-two {
   border: .15em solid black;
   height: 30px;
   width: 60px;
@@ -578,7 +604,7 @@ span {
   right: 118px;
 }
 
-.office {
+.room.office {
   border: .15em solid black;
   height: 30px;
   width: 44px;
@@ -588,7 +614,7 @@ span {
   
 }
 
-.three-twelve {
+.room.three-twelve {
   border: .15em solid black;
   height: 30px;
   width: 35px;
@@ -598,7 +624,7 @@ span {
 }
 /********** Library **********/
 
-.library {
+.room.library {
   border: .15em solid black;
   width: 75px;
   height: 146px;
@@ -609,7 +635,7 @@ span {
   right: 427px;
 }
 
-.two-sixteen {
+.room.two-sixteen {
   border: .15em solid black;
   border-radius: 4px;
   height: 37px;
@@ -620,7 +646,7 @@ span {
 }
 /********** GYM **********/
 
-.old-gym {
+.room.old-gym {
   border: .15em solid black;
   width: 107px;
   height: 121px;
@@ -632,7 +658,7 @@ span {
   right: 348px;
 }
 
-.new-gym {
+.room.new-gym {
   border: .15em solid black;
   width: 115px;
   height: 120px;
@@ -645,7 +671,7 @@ span {
   right: 0px;
 }
 
-.band {
+.room.band {
   border: .15em solid black;
   border-radius: 4px;
   height: 37px;
@@ -655,7 +681,7 @@ span {
   right: 4px;
 }
 
-.weights {
+.room.weights {
   border: .15em solid black;
   border-radius: 4px;
   height: 37px;
@@ -664,7 +690,13 @@ span {
   bottom: 4px;
   right: 4px;
 }
+
+.checkbox {
+  height: 13px;
+  width: 18px;
+}
 /************** street ****************/
+
 .east {
   border-radius: 4px;
   background-color: black;
@@ -694,23 +726,39 @@ span {
   border: 1px solid grey;
   width: 1px;
   top: 1px;
-  bottom: 255px;
+  bottom: 215px;
 }
 
+.fixed {
+position: absolute;
+background-color: orange; 
+}
 
-.time > hr {
-  width: 185px;
+.time .fixed > hr {
+  width: 220px;
   border: 1px solid grey;
-  margin-left: 5px;
+  margin: 0 auto;
+}
+
+.time > h1 {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .time {
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  padding: 20px ;
-  margin-left: 0px;
-  width: 200px;
+  margin: 0 auto;
+  width: 180px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.time > ul > li {
+  border: 1px solid black;
+  /*border-radius: 8px;*/
+  list-style: none;
 }
 
 /**************** TEACHERS **************/

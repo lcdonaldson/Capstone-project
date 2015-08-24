@@ -10,6 +10,7 @@
     <script src="/bower_components/handlebars/handlebars.js"></script>
     <script src="/bower_components/underscore/underscore.js"></script>
     <script src="/bower_components/backbone/backbone.js"></script>
+    <script src="/bower_components/moment/moment.js"></script>
 </head>
 <body>
   <div class="panel hero">
@@ -21,15 +22,15 @@
             <a href="/login.html">Login</a>
           </button>
         </div>
-        <div class="navigation">
-          <nav>
-            <a href="#home">Home</a>
-            <a href="#about-us">About Us</a>
-            <a href="#services">Services</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#contact">Contact Us</a>
-          </nav>
-        </div>
+        
+        <nav class="clear"> 
+          <a href="#home">Home</a>
+          <a href="#about-us">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+       
       </div>
       
       <div class="pagename-header">
@@ -151,12 +152,35 @@
     </div>
   </div>
   <footer>
-  <!-- <div class="glyph">
+  <div class="glyph">
     <img src="/images/glyphicons-555-king.png" alt="glyph">
-  </div> -->
+  </div>
+  <div class="address">3256 W. Church St. Thatcher, AZ</div>
+  <div class="social"><i class="fa fa-google-plus fa-2x"></i><i class="fa fa-facebook fa-2x"></i><i class="fa fa-twitter fa-2x"></i><i class="fa fa-linkedin-square fa-2x"></i></div>
+  <h6 class="copyright"></h6> 
     <div>
     </div>
   </footer>
+
+  <script type="text/x-handlebars-template" id="hbs">
+    {{#each this}}
+      <option value="{{id}}">{{name}}</option>
+    {{/each}}  
+  </script>
+
+  <script type="text/x-handlebars-template" id="output">
+    <ul>
+    {{#each rooms}}
+    <br>
+    <br>
+      Mr. Cooper
+      <li data-id="{{id}}">{{name}}</li>
+      <li> *<b><em>{{statusState}}</em></b>* </li>
+      <li>{{lastreportedtime}}</li>
+      <input type="checkbox" class="checkbox"></input>
+    {{/each}} 
+    </ul> 
+  </script>
 
   <script src="Models/user.js"></script>
   <script src="Models/room.js"></script>

@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="styles.css" class=""></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"></link>
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/handlebars/handlebars.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/underscore/underscore.js"></script>
     <script src="/bower_components/backbone/backbone.js"></script>
+    <script src="/bower_components/moment/moment.js"></script>
 </head>
 <body>
   <div class="panel template">
@@ -50,6 +51,17 @@
     {{#each this}}
       <option value="{{id}}">{{name}}</option>
     {{/each}}  
+  </script>
+
+  <script type="text/x-handlebars-template" id="output">
+    <ul>
+    {{#each rooms}}
+      Mr. Cooper
+      <li data-id="{{id}}">{{name}}</li>
+      <li> <em>{{statusState}}</em></li>
+      <li>{{lastreportedtime}}</li>
+    {{/each}} 
+    </ul> 
   </script>
 
   <script src="Models/user.js"></script>

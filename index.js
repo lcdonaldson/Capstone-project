@@ -5,11 +5,25 @@ $(function () {
     var policeUrl = 'http://localhost:8080/police.html' 
     var adminUrl = 'http://localhost:8080/admin.html' 
     var roomsUrl = 'http://localhost:3000/rooms'
+    var usersUrl = 'http://localhost:3000/users'
 
 
 
     var roomDropdown = $('.room-dropdown')
-    var police = $('.police')
+
+    $(window).scroll(function() {    
+
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 650) {
+            $(".clear").addClass("solid")
+        } else if (scroll <= 650){
+            $(".clear").removeClass("solid")
+        } //else {
+            //$(".clear").show()
+        //}
+    })
+
 
     // Only run this code if we need to populate the dropdown for rooms
     if (roomDropdown.length) {
@@ -50,9 +64,9 @@ $(function () {
             lastreportedtime: Date.now()
         }
 
-        var roomId = $('.room-dropdown').val();
+        var roomId = $('.room-dropdown').val()
         // console.log(roomId);
-
+        
 
         $.ajax({ 
             url:'http://localhost:3000/rooms/' + roomId,   
@@ -65,6 +79,7 @@ $(function () {
         location.href = 'http://localhost:8080/thank-you.html'
 
         event.preventDefault()
+        
 
     }) 
 
@@ -78,14 +93,42 @@ $(function () {
 
     // *********** Police page ********************
 
+    var datainfo = $('#output').html()
+    var timeTemplate = Handlebars.compile(datainfo)
+
     if (policeUrl == location.href) {
+
         $.get(roomsUrl)
             .done(function (rooms) {
-                rooms.forEach(function (room) {
-                    $('.time').append('<li>' + room.name + '</li>')
+                var status = rooms.statusId
+                
+                rooms.forEach(function (room) {   
+
+
+                    if(room.statusId === 0) {
+                        status = "unreported"
+                    } else if (room.statusId === 1) {
+                        status = "good"
+                        $('#room-'+room.id).addClass('status-good')
+                    } else if (room.statusId === 2) {
+                        status = "missing student"
+                        $('#room-'+room.id).addClass('status-missing-student')
+                    } else if (room.statusId === 3) {
+                        status = "help"
+                        $('#room-'+room.id).addClass('status-help')
+                    }
+                    room.statusState = status
+                    console.log(room)
                 })
+                var htmlResult = timeTemplate({rooms: rooms})
+                
+                $('.time').append(htmlResult) 
+
             })
+            
     }
+
+
             
 })
     
