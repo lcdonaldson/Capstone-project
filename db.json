@@ -42,7 +42,7 @@
       "id": 51,
       "name": "room 51",
       "statusId": 1,
-      "lastreportedtime": 1440353916255
+      "lastreportedtime": 1440438584445
     },
     {
       "id": 52,
@@ -66,7 +66,7 @@
       "id": 55,
       "name": "room 55",
       "statusId": 1,
-      "lastreportedtime": 1440313608532
+      "lastreportedtime": 1440441140942
     },
     {
       "id": 56,
@@ -77,20 +77,20 @@
     {
       "id": 216,
       "name": "room 216",
-      "statusId": 1,
-      "lastreportedtime": 1440353822920
+      "statusId": 2,
+      "lastreportedtime": 1440457416591
     },
     {
       "id": 302,
       "name": "room 302",
       "statusId": 1,
-      "lastreportedtime": 1440313696822
+      "lastreportedtime": 1440436904556
     },
     {
       "id": 303,
       "name": "room 303",
       "statusId": 1,
-      "lastreportedtime": 1440313706527
+      "lastreportedtime": 1440453742460
     },
     {
       "id": 309,
@@ -114,19 +114,19 @@
       "id": 13,
       "name": "weights",
       "statusId": 1,
-      "lastreportedtime": 1440313758191
+      "lastreportedtime": 1440457070934
     },
     {
       "id": 14,
       "name": "band",
       "statusId": 1,
-      "lastreportedtime": 1440315571463
+      "lastreportedtime": 1440437239158
     },
     {
       "id": 15,
       "name": "old gym",
       "statusId": 1,
-      "lastreportedtime": 1440353944955
+      "lastreportedtime": 1440442696019
     },
     {
       "id": 16,
@@ -137,14 +137,14 @@
     {
       "id": 17,
       "name": "library",
-      "statusId": 1,
-      "lastreportedtime": 1440385236220
+      "statusId": 0,
+      "lastreportedtime": 1440453759512
     },
     {
       "id": 18,
       "name": "room LR",
       "statusId": 1,
-      "lastreportedtime": 1440315601367
+      "lastreportedtime": 1440442717413
     },
     {
       "id": 19,

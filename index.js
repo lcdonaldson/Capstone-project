@@ -59,24 +59,36 @@ $(function () {
 
     $('.room-teacher-options').on('submit', function (event) {
 
+
+    //******************* check to see if password field is empty ******************
+
+        if ($('.set-password').val() !== '') {
+            var statusId = 3
+        } else {
+            var statusId = $('input:checked').val()
+        }
+        // console.log('wait')
+        // var statusId = condition ? 3 : $('input:checked').val()
+
+
         var updateInfo = {
-            statusId: $('input:checked').val(),
+            statusId: statusId, //$('input:checked').val(),
             lastreportedtime: Date.now()
         }
 
         var roomId = $('.room-dropdown').val()
         // console.log(roomId);
         
-
         $.ajax({ 
             url:'http://localhost:3000/rooms/' + roomId,   
             type: 'PUT',
             data: updateInfo
         }).done(function (data) {
-            console.log(data)
+            // console.log(data)
         })
-
+       
         location.href = 'http://localhost:8080/thank-you.html'
+
 
         event.preventDefault()
         
@@ -103,7 +115,7 @@ $(function () {
                 var status = rooms.statusId
                 
                 rooms.forEach(function (room) {   
-
+                    room.lastreportedtime = moment(room.lastreportedtime).format("h:mm:ss a")
 
                     if(room.statusId === 0) {
                         status = "unreported"

@@ -29,7 +29,24 @@
       <a href="http://localhost:8080/index.html">home</a>
     </footer>
   </div>
+  
+  <script type="text/x-handlebars-template" id="hbs">
+    {{#each this}}
+      <option value="{{id}}">{{name}}</option>
+    {{/each}}  
+  </script>
 
+  <script type="text/x-handlebars-template" id="output">
+    <ul>
+    {{#each rooms}}
+      Mr. Cooper
+      <li data-id="{{id}}">{{name}}</li>
+      <li> <em>{{statusState}}</em></li>
+      <li>{{lastreportedtime}}</li>
+    {{/each}} 
+    </ul> 
+  </script>
+  
   <script src="Models/user.js"></script>
   <script src="Models/room.js"></script>
   <script src="Collections/users.js"></script>

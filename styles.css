@@ -54,9 +54,10 @@ a {
   text-align: right;
   padding-top: 15px;
   height: 64px;
-  width: 100%;
+  width: 100vw;
+  left: 0px;
   top: 0px;
-  background-color: #555555;
+  background-color: #777777;
 }
 
 .panel > div {
@@ -69,7 +70,7 @@ a {
 LAYOUT   (PANELS)
 *******************************/
 
-/******** HERO ********/
+/*********** HERO ***********/
 
 .primary-header {
   height: 130px;
@@ -89,12 +90,12 @@ LAYOUT   (PANELS)
   position: relative;
 }
 
-/******* ABOUT US *******/
+/********** ABOUT US **********/
 .about-us > div {
   text-align: center;
 }
 
-/******* SERVICES *******/
+/********** SERVICES **********/
 .services {
   background-color: #F5F5F5;
 }
@@ -111,13 +112,13 @@ LAYOUT   (PANELS)
   margin: 55px;
 }
 
-/******* TESTIMONIALS *******/
+/********** TESTIMONIALS **********/
 .testimonials {
   margin-top: 20px;
   padding-top: 20px;
 }
 
-/******* CONTACT US *******/
+/********** CONTACT US **********/
 
 .contact-us {
   background-color: #F5F5F5;
@@ -188,9 +189,24 @@ LAYOUT   (PANELS)
   color: #E3E3E3;
 }
 
+
+/************** FOOTER ************/
+
+footer {
+  margin: 0 auto;
+  background-color: #1A1A1A;
+  color: #BCBCBC;
+  min-height: 250px;
+}
+
+.footer-info {
+  padding-top: 20px;
+}
+
 .glyph {
-  width: 50px;
-  height: 41px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   background-color: #C2C2C2;
   margin: 0 auto;
   text-align: center;
@@ -198,34 +214,37 @@ LAYOUT   (PANELS)
 }
 
 .address {
-  font-size: 14pt;
-  width: 180px;
+  font-size: 12pt;
   text-align: center;
-  padding-top: 0px;
-  margin: 0px auto;
+  padding-top: 35px;
+  /*margin: 0 auto;*/
 }
 
 .social {
-  letter-spacing: 33px;
-  text-align: center;
-  padding-top: 0px;
-  margin: 0px;
-}
-/******* FOOTER *******/
-
-footer {
   margin: 0 auto;
-  background-color: #1A1A1A;
-  color: #BCBCBC;
-  min-height: 230px;
-
+  width: 400px;
+  text-align: center;
+  display: flex;
+  padding-top: 35px;
 }
 
-/*******************************
+.fa-google-plus,.fa-facebook,.fa-twitter,.fa-linkedin-square {
+  flex: 1;
+}
+
+.copyright {
+  text-align: center;
+  margin: 0px;
+  padding-top: 30px;
+}
+
+/**************************************
 COMPONENTS
-*******************************/
+***************************************/
+
 
 /************* HERO *************/
+
 .hero {
   background: radial-gradient(rgba(26, 26, 26, .5), rgba(26, 26, 26, .2)), url("images/one.png");
   background-size: cover;
@@ -379,7 +398,8 @@ span {
 
 /************* Contact Us ***********/
 
-/************** LOGIN ****************/
+
+/************** LOGIN PAGE ****************/
 
 .user-login {
   text-align: center;
@@ -426,7 +446,131 @@ span {
 }
 
 
-/*****************************************/
+/**************** TEACHERS PAGE ****************/
+
+.template {
+  background-color: #E0F8FF;
+  text-align: center;
+}
+
+.template > div {
+  width: 1060px;
+  min-height: 600px;
+  display: inline-block;
+  background-color: rgba(26, 26, 26, .0);
+  text-align: center;
+}
+
+.teacher-request {
+  text-align: center;
+}
+
+.teacher-request > form {
+  display: inline-block;
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.teacher-request > form > h1 {
+  font-size: 30pt;
+  color: rgba(0, 0, 0, .6);
+}
+
+.room-dropdown {
+  width: 150px;
+}
+
+.drop-option {
+  font-size: 14pt;
+  padding: 5px;
+}
+
+form > h3 {
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  color: rgba(0, 0, 0, .7);
+}
+
+.btn-group {
+  margin: 0 auto;
+  width: 680px;
+}
+
+.btn-group > label {
+  padding: 12px;
+  margin: 12px 5px;
+  width: 200px;
+  display: inline-block;
+  /*color: rgba(26, 26, 26, .7);*/
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14pt;
+  border: none;
+  -webkit-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+}
+
+.btn-group > label i.fa {
+  display: none;
+}
+
+.btn-group input:checked + .good {
+  background-color: rgba(36, 243, 4, 0.64);
+  color: white;
+}
+
+.btn-group input:checked + .missing {
+  background-color: #CCCC00;
+  color: white;
+}
+
+.btn-group input:checked + .help {
+  background-color: red;
+  color: white;
+}
+
+.btn-group input:checked + label i.fa {
+  display: inline-block;
+}
+
+input[type=radio]{
+  display: none;
+} 
+
+.good {
+  background-color: transparent;
+  color: rgba(36, 243, 4, 1.99);
+}
+
+
+.missing {
+  background-color: transparent;
+  color: #CCCC00;
+}
+
+.help {
+  background-color: transparent;
+  color: red;
+}
+
+.confirm {
+  margin-top: 80px;
+  font-size: 14pt;
+}
+
+.confirm > input {
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
+  box-shadow: inset 0px 0px 32px -9px rgba(0,0,0,0.6);
+}
+
+/***************** POLICE PAGE ************************/
 
 .police {
   background-color: #E0F8FF;
@@ -445,7 +589,7 @@ span {
   position: relative;
   /*border: 1px solid black;*/
   width: 710px;
-  height: 558px;
+  height: 515px;
 }
 
 .map > img {
@@ -701,7 +845,7 @@ span {
   border-radius: 4px;
   background-color: black;
   width: 17px;
-  height: 410px;
+  height: 394px;
   position: absolute;
   color: #F5F5F5;
   bottom: 105px;
@@ -726,7 +870,8 @@ span {
   border: 1px solid grey;
   width: 1px;
   top: 1px;
-  bottom: 215px;
+  bottom: 8px;
+  margin-left: 20px;
 }
 
 .fixed {
@@ -735,7 +880,7 @@ background-color: orange;
 }
 
 .time .fixed > hr {
-  width: 220px;
+  width: 180px;
   border: 1px solid grey;
   margin: 0 auto;
 }
@@ -750,7 +895,7 @@ background-color: orange;
   vertical-align: top;
   text-align: center;
   margin: 0 auto;
-  width: 180px;
+  width: 250px;
   height: 600px;
   overflow-y: scroll;
 }
@@ -759,130 +904,6 @@ background-color: orange;
   border: 1px solid black;
   /*border-radius: 8px;*/
   list-style: none;
-}
-
-/**************** TEACHERS **************/
-
-.template {
-  background-color: #E0F8FF;
-  text-align: center;
-}
-
-.template > div {
-  width: 1060px;
-  min-height: 600px;
-  display: inline-block;
-  background-color: rgba(26, 26, 26, .0);
-  text-align: center;
-}
-
-.teacher-request {
-  text-align: center;
-}
-
-.teacher-request > form {
-  display: inline-block;
-  width: 700px;
-  margin: 0 auto;
-  padding-top: 55px;
-  padding-bottom: 55px;
-}
-
-.teacher-request > form > h1 {
-  font-size: 30pt;
-  color: rgba(0, 0, 0, .6);
-}
-
-.room-dropdown {
-  width: 150px;
-}
-
-.drop-option {
-  font-size: 14pt;
-  padding: 5px;
-}
-
-form > h3 {
-  margin-top: 30px;
-  margin-bottom: 30px; 
-  color: rgba(0, 0, 0, .7);
-}
-
-.btn-group {
-  margin: 0 auto;
-  width: 680px;
-}
-
-.btn-group > label {
-  padding: 12px;
-  margin: 12px 5px;
-  width: 200px;
-  display: inline-block;
-  /*color: rgba(26, 26, 26, .7);*/
-  border-radius: 30px;
-  font-weight: bold;
-  font-size: 14pt;
-  border: none;
-  -webkit-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
-  -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
-  box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
-}
-
-.btn-group > label i.fa {
-  display: none;
-}
-
-.btn-group input:checked + .good {
-  background-color: rgba(36, 243, 4, 0.64);
-  color: white;
-}
-
-.btn-group input:checked + .missing {
-  background-color: #CCCC00;
-  color: white;
-}
-
-.btn-group input:checked + .help {
-  background-color: red;
-  color: white;
-}
-
-.btn-group input:checked + label i.fa {
-  display: inline-block;
-}
-
-input[type=radio]{
-  display: none;
-} 
-
-.good {
-  background-color: transparent;
-  color: rgba(36, 243, 4, 1.99);
-}
-
-
-.missing {
-  background-color: transparent;
-  color: #CCCC00;
-}
-
-.help {
-  background-color: transparent;
-  color: red;
-}
-
-.confirm {
-  margin-top: 80px;
-  font-size: 14pt;
-}
-
-.confirm > input {
-  margin: 0 auto;
-  border: none;
-  border-radius: 8px;
-  -webkit-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
-  -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
-  box-shadow: inset 0px 0px 32px -9px rgba(0,0,0,0.6);
 }
 
 /********************* THANK YOU ***********************/
