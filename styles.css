@@ -183,6 +183,7 @@ LAYOUT   (PANELS)
 .msg-sent {
   padding: 4px;
   margin-left: -23px;
+  margin-top: 12px;
   width: 120px;
   text-align: center;
   background-color: #777;
@@ -217,7 +218,8 @@ footer {
   font-size: 12pt;
   text-align: center;
   padding-top: 35px;
-  /*margin: 0 auto;*/
+  margin: 0 auto;
+  width: 200px;
 }
 
 .social {
@@ -438,9 +440,9 @@ span {
 
 .access > input {
   margin: 10px;
-  /*-webkit-box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
+  -webkit-box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
   -moz-box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
-  box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);*/
+  box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
   border: none;
   border-radius: 8px;
 }
@@ -902,7 +904,7 @@ background-color: orange;
 
 .time > ul > li {
   border: 1px solid black;
-  /*border-radius: 8px;*/
+  border-radius: 5px;
   list-style: none;
 }
 

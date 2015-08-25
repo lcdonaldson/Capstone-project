@@ -7,7 +7,7 @@ $(function () {
     var roomsUrl = 'http://localhost:3000/rooms'
     var usersUrl = 'http://localhost:3000/users'
 
-
+    // ******************** NAV BAR SHADOW ON SCROLL ******************
 
     var roomDropdown = $('.room-dropdown')
 
@@ -19,13 +19,12 @@ $(function () {
             $(".clear").addClass("solid")
         } else if (scroll <= 650){
             $(".clear").removeClass("solid")
-        } //else {
-            //$(".clear").show()
-        //}
+        } 
+            
     })
 
+    // ******* Only run this code if we need to populate the dropdown for rooms *******
 
-    // Only run this code if we need to populate the dropdown for rooms
     if (roomDropdown.length) {
 
         var txtinfo = $('#hbs').html()
@@ -39,9 +38,7 @@ $(function () {
 
     }
 
-
-
-    // *********** login Page choosing the user **************
+    // ************** Login Page choosing the user **************
 
     $('.user-options').on('submit', function (event) {
         var value = $('.user-dropdown').val()
@@ -55,19 +52,19 @@ $(function () {
         event.preventDefault()
     })
 
-    // *********** Teacher Page choosing the room **************
+    // ****************** Teacher Page choosing the room *******************
 
     $('.room-teacher-options').on('submit', function (event) {
 
 
-    //******************* check to see if password field is empty ******************
+    //**************** Check to see if password field is empty *************
 
         if ($('.set-password').val() !== '') {
             var statusId = 3
         } else {
             var statusId = $('input:checked').val()
         }
-        // console.log('wait')
+    
         // var statusId = condition ? 3 : $('input:checked').val()
 
 
@@ -89,19 +86,15 @@ $(function () {
        
         location.href = 'http://localhost:8080/thank-you.html'
 
-
         event.preventDefault()
         
-
     }) 
 
     // *********** Thank you page button click ********************
 
     $('thank-you-btn').on('click', function () {
-        location.href = 'http://localhost:8080/teachers.html'
-        
+        location.href = 'http://localhost:8080/teachers.html'   
     })
-
 
     // *********** Police page ********************
 
@@ -136,11 +129,9 @@ $(function () {
                 
                 $('.time').append(htmlResult) 
 
-            })
-            
+            })   
     }
-
-
+     
             
 })
     
