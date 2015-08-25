@@ -106,7 +106,7 @@ $(function () {
         $.get(roomsUrl)
             .done(function (rooms) {
                 var status = rooms.statusId
-                
+    
                 rooms.forEach(function (room) {   
                     room.lastreportedtime = moment(room.lastreportedtime).format("h:mm:ss a")
 
@@ -132,8 +132,30 @@ $(function () {
             })   
     }
      
+    //**************** ADMIN ******************
+
+    $('.reset-btn').on('click', function () {
+        $.get(roomsUrl)
+            .done(function (rooms) {
+               rooms.forEach(function (room) {    
+                var updateStatus = {
+                    statusId: 0
+                }
+
+                $.ajax({
+                    url: 'http://localhost:3000/rooms/' + room.id,
+                    type: 'PUT',
+                    data: updateStatus
+                })
+
+               })
+            })
+    })
             
 })
+
+
+
     
 
 

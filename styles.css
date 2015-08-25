@@ -240,6 +240,22 @@ footer {
   padding-top: 30px;
 }
 
+/************* POLIE PAGE LAYOUT **************/
+
+main {
+  /*background-color: magenta;*/
+  min-height: 200px;
+  flex: 1;
+}
+
+aside {
+  /*background-color: yellow;*/
+  min-height: 200px;
+  width: 270px;
+  border-left: 2px solid grey;
+}
+
+
 /**************************************
 COMPONENTS
 ***************************************/
@@ -582,13 +598,15 @@ input[type=radio]{
   background-color: #fff;
   width: 1000px;
   margin: 0 auto;
-  position: relative;
+/*  position: relative;*/
+  display: flex;
 }
 
 .map {
-  text-align: left;
-  display: inline-block;
+ /* text-align: left;
+  display: inline-block;*/
   position: relative;
+  /*background-color: green;*/
   /*border: 1px solid black;*/
   width: 710px;
   height: 515px;
@@ -870,26 +888,55 @@ input[type=radio]{
   right: 53px;
 }
 
-.divide {
-  position: absolute;
-  display: inline-block;
-  border: 1px solid grey;
-  width: 1px;
-  top: 1px;
-  bottom: 8px;
-  margin-left: 20px;
+
+.legend {
+  /*border: 1px solid black;*/
+  display: flex;
 }
 
-.fixed {
-position: absolute;
-background-color: orange; 
+.legend > h4 {
+  flex: .75;
+  /*background-color: magenta;*/
+  /*border: 1px solid black;*/
+  /*text-align: center;*/
+  height: 30px;
+  width: 30px;
+  margin: 0px;
 }
 
-.time .fixed > hr {
-  width: 180px;
-  border: 1px solid grey;
-  margin: 0 auto;
+.indicator-unreported {
+  margin-right: 10px;
+  margin-left: 10px;
+  background: white;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
 }
+
+.indicator-good {
+  margin-left: 30px;
+  margin-right: 10px;
+  background-color: green;
+  height: 30px;
+  width: 30px;
+}
+
+.indicator-missing-student {
+  margin-right: 10px;
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+}
+
+.indicator-help {
+  margin-right: 10px;
+  background-color: red;
+  height: 30px;
+  width: 30px;
+}
+
+
+
 
 .time > h1 {
   text-align: center;
@@ -897,10 +944,6 @@ background-color: orange;
 }
 
 .time {
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  margin: 0 auto;
   width: 250px;
   height: 600px;
   overflow-y: scroll;
@@ -910,6 +953,7 @@ background-color: orange;
   border: 1px solid black;
   border-radius: 5px;
   list-style: none;
+  width: 180px;
 }
 
 

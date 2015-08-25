@@ -8,21 +8,16 @@
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
     <script src="/bower_components/handlebars/handlebars.js"></script>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/underscore/underscore.js"></script>
-    <script src="/bower_components/backbone/backbone.js"></script>
     <!-- <script src="/bower_components/moment/moment.js"></script> -->
 </head>
 <body>
   <div class="panel template">
     <div>  
       <div class="teacher-request">
-        <form method="GET" action="formprocessor.html" class="room-teacher-options">
-          <h1>A D M I N</h1
-          <div class="confirm">             
-            <input type="password" name="pswd" placeholder="Password">
-            <input type="submit" value="Confirm">
-          </div>
-        </form>
+        <h1>A D M I N</h1>
+        <div class="admin-reset">
+          <button class="reset-btn">RESET ROOM STATUS</button>
+        </div>
       </div>
     </div>
 
@@ -52,7 +47,7 @@
     {{#each rooms}}
     <br>
     <br>
-      Mr. Cooper
+      <p id="{{id}}">{{username}}</p>
       <li data-id="{{id}}">{{name}}</li>
       <li> *<b><em>{{statusState}}</em></b>* </li>
       <li>{{lastreportedtime}}</li>
@@ -60,11 +55,6 @@
     {{/each}} 
     </ul> 
   </script>
-
-  <script src="Models/user.js"></script>
-  <script src="Models/room.js"></script>
-  <script src="Collections/users.js"></script>
-  <script src="Collections/rooms.js"></script>
   <script src="index.js"></script> 
 </body>
 </html> 
