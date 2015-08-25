@@ -60,11 +60,11 @@ a {
   background-color: #777777;
 }
 
-.panel > div {
+/*.panel > div {
   width: 1000px;
   min-height: 500px;
   margin: auto;
-}
+}*/
 
 /*******************************
 LAYOUT   (PANELS)
@@ -578,7 +578,7 @@ input[type=radio]{
   background-color: #E0F8FF;
 }
 
-.police > div {
+.content-view {
   background-color: #fff;
   width: 1000px;
   margin: 0 auto;
@@ -612,6 +612,10 @@ input[type=radio]{
   position: absolute;
   bottom: 114px;
   left: 33px;
+}
+
+.status-unreported {
+  background-color: white;
 }
 
 .status-good {
@@ -907,6 +911,7 @@ background-color: orange;
   border-radius: 5px;
   list-style: none;
 }
+
 
 /********************* THANK YOU ***********************/
 
