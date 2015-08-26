@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="styles.css" class=""></link>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/handlebars/handlebars.js"></script>
-    <script src="/bower_components/underscore/underscore.js"></script>
-    <script src="/bower_components/backbone/backbone.js"></script>
     <script src="/bower_components/moment/moment.js"></script>
 </head>
 <body>
@@ -78,6 +76,7 @@
           <i class="fa fa-graduation-cap"></i>
           <div class="trick"> </div>
           <h2>Teachers</h2>
+          <p class="quote">We report our status</p>
         </div>
       </div>
 
@@ -87,6 +86,7 @@
           <i class="fa fa-car"></i>
           <div class="trick"> </div>
           <h2>Police</h2>
+          <p class="quote">We respond to help</p>
         </div>
       </div>
 
@@ -96,39 +96,42 @@
           <i class="fa fa-university"></i>
           <div class="trick"> </div>
           <h2>Admin</h2>
+          <p class="quote">We evaluate the data</p>
         </div>
       </div>
     </div>
   </div>
 
   <div class="panel testimonials">
-    <div>  
-      <h1><a name="testimonials">Testimonials</a></h1>
-      <hr>
-      <div class="endorse">  
-        <img src="images/tst.png" alt="">
-          <p><em><span>"G</span>reatly improves down-time during drills, and helps us see where to improve...<br> Brady"</em></p>
-      </div>
+    <div>
+      <main>  
+        <h1><a name="testimonials">Testimonials</a></h1>
+        <hr>
+        <div class="endorse">  
+          <img src="images/tst.png" alt="">
+            <p><em><span>"G</span>reatly improves down-time during drills, and helps us see where to improve...<br> Brady"</em></p>
+        </div>
 
-      <div class="endorse">  
-        <img src="images/tst3.png" alt="">  
-          <p><em><span>"I</span> can send updates about my students and my room to police in real-time, wow...<br> Gina"</em></p>
-      </div>
+        <div class="endorse">  
+          <img src="images/tst3.png" alt="">  
+            <p><em><span>"I</span> can send updates about my students and my room to police in real-time, wow...<br> Gina"</em></p>
+        </div>
 
-      <div class="endorse">  
-        <img src="images/tst2.png" alt=""> 
-          <p><em><span>"A</span>s a Principal this helps me evaluate lockdowns as they happen...<br> Tom"</em></p>
-      </div>
+        <div class="endorse">  
+          <img src="images/tst2.png" alt=""> 
+            <p><em><span>"A</span>s a Principal this helps me evaluate lockdowns as they happen...<br> Tom"</em></p>
+        </div>
 
-      <div class="endorse">  
-        <img src="images/tst4.png" alt="">  
-          <p><em><span>"R</span>emain silent and still communicate effectively. Tips gives us this ability...<br> Tanya"<em></p>
-      </div>
+        <div class="endorse">  
+          <img src="images/tst4.png" alt="">  
+            <p><em><span>"R</span>emain silent and still communicate effectively. Tips gives us this ability...<br> Tanya"<em></p>
+        </div>
 
-      <div class="endorse">  
-        <img src="images/tst5.png" alt=""> 
-          <p><em><span>"T</span>his app helps Police to quickly prioritize threat areas to focus on...<br> Kevin"</em></p>
-      </div>
+        <div class="endorse">  
+          <img src="images/tst5.png" alt=""> 
+            <p><em><span>"T</span>his app helps Police to quickly prioritize threat areas to focus on...<br> Kevin"</em></p>
+        </div>
+      </main>
     </div>  
   </div>
   <div class="panel contact-us">
@@ -181,11 +184,6 @@
     {{/each}} 
     </ul> 
   </script>
-
-  <script src="Models/user.js"></script>
-  <script src="Models/room.js"></script>
-  <script src="Collections/users.js"></script>
-  <script src="Collections/rooms.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
