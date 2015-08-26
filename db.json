@@ -42,76 +42,76 @@
       "id": 51,
       "username": "Mr. Cooper",
       "name": "room 51",
-      "statusId": 0,
-      "lastreportedtime": 1440459944917
+      "statusId": 1,
+      "lastreportedtime": 1440548288615
     },
     {
       "id": 52,
       "name": "room 52",
-      "statusId": 0,
-      "lastreportedtime": 1440541065577
+      "statusId": 1,
+      "lastreportedtime": 1440548294520
     },
     {
       "id": 53,
       "name": "room 53",
-      "statusId": 0,
-      "lastreportedtime": 1440533988368
+      "statusId": 3,
+      "lastreportedtime": 1440548943227
     },
     {
       "id": 54,
       "name": "room 54",
-      "statusId": 0,
-      "lastreportedtime": 1440313586051
+      "statusId": 1,
+      "lastreportedtime": 1440548306754
     },
     {
       "id": 55,
       "name": "room 55",
-      "statusId": 0,
-      "lastreportedtime": 1440517714384
+      "statusId": 1,
+      "lastreportedtime": 1440548312899
     },
     {
       "id": 56,
       "name": "room 56-57",
-      "statusId": 0,
-      "lastreportedtime": 1440461883958
+      "statusId": 2,
+      "lastreportedtime": 1440548319152
     },
     {
       "id": 216,
       "name": "room 216",
-      "statusId": 0,
-      "lastreportedtime": 1440458957837
+      "statusId": 1,
+      "lastreportedtime": 1440548347038
     },
     {
       "id": 302,
       "name": "room 302",
-      "statusId": 0,
-      "lastreportedtime": 1440436904556
+      "statusId": 1,
+      "lastreportedtime": 1440548529345
     },
     {
       "id": 303,
       "username": "Mrs. Weech",
       "name": "room 303",
-      "statusId": 0,
-      "lastreportedtime": 1440537897701
+      "statusId": 1,
+      "lastreportedtime": 1440548361870
     },
     {
       "id": 309,
       "name": "room 309",
-      "statusId": 0,
-      "lastreportedtime": 1440313715535
+      "statusId": 2,
+      "lastreportedtime": 1440548868221
     },
     {
       "id": 312,
       "username": "Mrs. Schlittenhart",
       "name": "room 312",
-      "statusId": 0,
-      "lastreportedtime": 1440313724722
+      "statusId": 1,
+      "lastreportedtime": 1440548389932
     },
     {
       "id": 12,
       "name": "office",
-      "statusId": 0,
-      "lastreportedtime": 1440461349955
+      "statusId": 1,
+      "lastreportedtime": 1440548517240
     },
     {
       "id": 13,
@@ -122,38 +122,38 @@
     {
       "id": 14,
       "name": "band",
-      "statusId": 0,
-      "lastreportedtime": 1440437239158
+      "statusId": 1,
+      "lastreportedtime": 1440548415461
     },
     {
       "id": 15,
       "name": "old gym",
-      "statusId": 0,
-      "lastreportedtime": 1440458867316
+      "statusId": 1,
+      "lastreportedtime": 1440548572576
     },
     {
       "id": 16,
       "name": "new gym",
-      "statusId": 0,
-      "lastreportedtime": 1440538437516
+      "statusId": 1,
+      "lastreportedtime": 1440548455054
     },
     {
       "id": 17,
       "name": "library",
-      "statusId": 0,
-      "lastreportedtime": 1440538408082
+      "statusId": 1,
+      "lastreportedtime": 1440548471670
     },
     {
       "id": 18,
       "name": "room LR",
-      "statusId": 0,
-      "lastreportedtime": 1440442717413
+      "statusId": 1,
+      "lastreportedtime": 1440548504416
     },
     {
       "id": 19,
       "name": "room MR",
-      "statusId": 0,
-      "lastreportedtime": 1440313837784
+      "statusId": 1,
+      "lastreportedtime": 1440548485785
     }
   ]
 }

@@ -14,7 +14,6 @@ html {
  box-sizing: inherit;
  color: inherit;
 }
-
 /*******************************
 DEFAULTS
 *******************************/
@@ -240,7 +239,7 @@ footer {
   padding-top: 30px;
 }
 
-/************* POLIE PAGE LAYOUT **************/
+/************* POLICE PAGE LAYOUT **************/
 
 main {
   /*background-color: magenta;*/
@@ -255,12 +254,11 @@ aside {
   border-left: 2px solid grey;
 }
 
-
 /**************************************
 COMPONENTS
 ***************************************/
 
-
+          /*HOME PAGE*/
 /************* HERO *************/
 
 .hero {
@@ -363,7 +361,6 @@ COMPONENTS
   height: 5px;
 }
 /****** upside down house look in tiles *******/
-
 .trick {
   width: 0;
   height: 0;
@@ -372,9 +369,7 @@ COMPONENTS
   border-top: 16px solid #F5F5F5;
   margin: -7px auto;
 }
-
 /********** Testimonials ***********/
-
 .testimonials h1 {
   font-size: 40pt;
 }
@@ -462,10 +457,7 @@ span {
   border: none;
   border-radius: 8px;
 }
-
-
 /**************** TEACHERS PAGE ****************/
-
 .template {
   background-color: #E0F8FF;
   text-align: center;
@@ -587,9 +579,7 @@ input[type=radio]{
   -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
   box-shadow: inset 0px 0px 32px -9px rgba(0,0,0,0.6);
 }
-
 /***************** POLICE PAGE ************************/
-
 .police {
   background-color: #E0F8FF;
 }
@@ -598,28 +588,22 @@ input[type=radio]{
   background-color: #fff;
   width: 1000px;
   margin: 0 auto;
-/*  position: relative;*/
   display: flex;
 }
-
+/*********** MAIN **********/
 .map {
- /* text-align: left;
-  display: inline-block;*/
   position: relative;
-  /*background-color: green;*/
-  /*border: 1px solid black;*/
   width: 710px;
   height: 515px;
 }
 
-.map > img {
+/*.map > img {
   width: 790px;
   height: 512px;
-  /*opacity: 0.2;*/
   background-color: red;
   margin: 10px;
   padding: 10px;
-}
+}*/
 
 .main-st {
   border-radius: 4px;
@@ -791,7 +775,6 @@ input[type=radio]{
   right: 1px;
 }
 /********** Library **********/
-
 .room.library {
   border: .15em solid black;
   width: 75px;
@@ -813,7 +796,6 @@ input[type=radio]{
   right: 15px;
 }
 /********** GYM **********/
-
 .room.old-gym {
   border: .15em solid black;
   width: 107px;
@@ -864,7 +846,6 @@ input[type=radio]{
   width: 18px;
 }
 /************** street ****************/
-
 .east {
   border-radius: 4px;
   background-color: black;
@@ -888,17 +869,14 @@ input[type=radio]{
   right: 53px;
 }
 
-
 .legend {
-  /*border: 1px solid black;*/
+
   display: flex;
 }
 
 .legend > h4 {
   flex: .75;
-  /*background-color: magenta;*/
-  /*border: 1px solid black;*/
-  /*text-align: center;*/
+ 
   height: 30px;
   width: 30px;
   margin: 0px;
@@ -935,17 +913,21 @@ input[type=radio]{
   width: 30px;
 }
 
+/*********ASIDE*********/
 
-
-
-.time > h1 {
+aside > h1 {
   text-align: center;
-  margin: 0 auto;
+  font-size: 30pt;
+  margin: 2px;
+}
+
+aside > hr {
+  width: 225px;
 }
 
 .time {
   width: 250px;
-  height: 600px;
+  height: 500px;
   overflow-y: scroll;
 }
 
@@ -957,7 +939,7 @@ input[type=radio]{
 }
 
 
-/********************* THANK YOU ***********************/
+/************** THANK YOU PAGE ****************/
 
 .thank-you {
   padding-top: 150px;
@@ -978,6 +960,19 @@ input[type=radio]{
   box-shadow: inset 0px 0px 32px -9px rgba(0,0,0,0.6);
 }
 
-.thank-you-btn {
+ /****************** ADMIN *******************/
 
+.reset-btn {
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  padding: 10px;
+  background: rgba(124,212,244,1);
+  background: -moz-linear-gradient(top, rgba(124,212,244,1) 0%, rgba(124,212,244,1) 1%, rgba(40,104,200,1) 49%, rgba(43,188,233,1) 94%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(124,212,244,1)), color-stop(1%, rgba(124,212,244,1)), color-stop(49%, rgba(40,104,200,1)), color-stop(94%, rgba(43,188,233,1)));
+  background: -webkit-linear-gradient(top, rgba(124,212,244,1) 0%, rgba(124,212,244,1) 1%, rgba(40,104,200,1) 49%, rgba(43,188,233,1) 94%);
+  background: -o-linear-gradient(top, rgba(124,212,244,1) 0%, rgba(124,212,244,1) 1%, rgba(40,104,200,1) 49%, rgba(43,188,233,1) 94%);
+  background: -ms-linear-gradient(top, rgba(124,212,244,1) 0%, rgba(124,212,244,1) 1%, rgba(40,104,200,1) 49%, rgba(43,188,233,1) 94%);
+  background: linear-gradient(to bottom, rgba(124,212,244,1) 0%, rgba(124,212,244,1) 1%, rgba(40,104,200,1) 49%, rgba(43,188,233,1) 94%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cd4f4', endColorstr='#2bbce9', GradientType=0 );
 }
