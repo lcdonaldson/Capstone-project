@@ -58,19 +58,11 @@ a {
   top: 0px;
   background-color: #777777;
 }
-
-/*.panel > div {
-  width: 1000px;
-  min-height: 500px;
-  margin: auto;
-}*/
-
 /*******************************
 LAYOUT   (PANELS)
 *******************************/
 
 /*********** HERO ***********/
-
 .primary-header {
   height: 130px;
   position: relative;
@@ -88,12 +80,10 @@ LAYOUT   (PANELS)
   min-height: 550px;
   position: relative;
 }
-
 /********** ABOUT US **********/
 .about-us > div {
   text-align: center;
 }
-
 /********** SERVICES **********/
 .services {
   background-color: #F5F5F5;
@@ -110,7 +100,6 @@ LAYOUT   (PANELS)
   width: 210px;
   margin: 55px;
 }
-
 /********** TESTIMONIALS **********/
 .testimonials {
   margin-top: 20px;
@@ -121,9 +110,7 @@ LAYOUT   (PANELS)
   width: 960px;
   margin: 0 auto;
 }
-
 /********** CONTACT US **********/
-
 .contact-us {
   background-color: #F5F5F5;
   margin-top: 20px;
@@ -193,10 +180,7 @@ LAYOUT   (PANELS)
   background-color: #777;
   color: #E3E3E3;
 }
-
-
 /************** FOOTER ************/
-
 footer {
   margin: 0 auto;
   background-color: #1A1A1A;
@@ -243,9 +227,7 @@ footer {
   margin: 0px;
   padding-top: 30px;
 }
-
 /************* POLICE PAGE LAYOUT **************/
-
 main {
   /*background-color: magenta;*/
   min-height: 200px;
@@ -258,14 +240,12 @@ aside {
   width: 270px;
   border-left: 2px solid grey;
 }
-
 /**************************************
 COMPONENTS
 ***************************************/
-
           /*HOME PAGE*/
-/************* HERO *************/
 
+/************* HERO *************/
 .hero {
   background: radial-gradient(rgba(26, 26, 26, .5), rgba(26, 26, 26, .2)), url("images/one.png");
   background-size: cover;
@@ -309,9 +289,7 @@ COMPONENTS
   right: 50px;
   left: 50px;
 }
-
 /************* About-Us *************/
-
 .about-us h1 {
   font-size: 40pt;
 }
@@ -334,9 +312,7 @@ COMPONENTS
   padding: 10px;
   font-size: 12pt;
 }
-
 /************ SERVICES **************/
-
 .services h1 {
   font-size: 40pt;
   padding-top: 40px;
@@ -418,12 +394,9 @@ span {
   font-size: 28pt;
   font-weight: lighter;
 }
-
 /************* Contact Us ***********/
 
-
 /************** LOGIN PAGE ****************/
-
 .user-login {
   text-align: center;
   margin: auto;
@@ -523,7 +496,6 @@ form > h3 {
   margin: 12px 5px;
   width: 200px;
   display: inline-block;
-  /*color: rgba(26, 26, 26, .7);*/
   border-radius: 30px;
   font-weight: bold;
   font-size: 14pt;
@@ -606,14 +578,6 @@ input[type=radio]{
   width: 710px;
   height: 515px;
 }
-
-/*.map > img {
-  width: 790px;
-  height: 512px;
-  background-color: red;
-  margin: 10px;
-  padding: 10px;
-}*/
 
 .main-st {
   border-radius: 4px;
@@ -753,10 +717,12 @@ input[type=radio]{
   bottom: 63px;
   right: 3px;
 }
+
 .highschool > p {
   margin-top: 42px;
   margin-left: 42px;
 }
+
 .room.three-o-two {
   border: .15em solid black;
   height: 30px;
@@ -922,9 +888,7 @@ input[type=radio]{
   height: 30px;
   width: 30px;
 }
-
 /*********ASIDE*********/
-
 aside > h1 {
   text-align: center;
   font-size: 30pt;
@@ -947,10 +911,7 @@ aside > hr {
   list-style: none;
   width: 180px;
 }
-
-
 /************** THANK YOU PAGE ****************/
-
 .thank-you {
   padding-top: 150px;
 }
@@ -969,7 +930,6 @@ aside > hr {
   -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
   box-shadow: inset 0px 0px 32px -9px rgba(0,0,0,0.6);
 }
-
  /****************** ADMIN *******************/
 .admin-reset {
 position:relative;
