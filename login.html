@@ -8,33 +8,33 @@
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/handlebars/handlebars.js"></script>
-    <script src="/bower_components/underscore/underscore.js"></script>
-    <script src="/bower_components/backbone/backbone.js"></script>
     <script src="/bower_components/moment/moment.js"></script>
+    <script src="/bower_components/highcharts-release/highcharts.js"></script>
 </head>
 <body>
- <div class="panel template">
-    <div>  
-      <div class="user-login">
-        <form method="GET" action="formprocessor.html" class="user-options">
-          <div class="access">             
-            <input class="fields" type="text" name="name" placeholder="username" required>
-            <input class="fields"type="password" name="pswd" placeholder="Password" required>
-            <input class="fields" type="submit" value="Enter">
-          </div>
-          <div class="user-selection">
-            User
-            <select class="user-dropdown" name="product" required>
-              <option value="">[ Choose your user type ]</option>
-              <option>Teacher</option>
-              <option>Admin</option>
-              <option>Police</option>
-            </select>
-          </div>
-        </form>
-      </div>
+  <div class="hero">
+    <div>
+      <div class="static"> 
+        <div class="user-login">
+          <form method="GET" action="formprocessor.html" class="user-options">
+            <div class="access">             
+              <input class="fields" type="text" name="name" placeholder="username" required>
+              <input class="fields"type="password" name="pswd" placeholder="Password" required>
+              <input class="fields" type="submit" value="Enter">
+            </div>
+            <div class="user-selection">
+              <select class="user-dropdown" name="product" required>
+                <option value="">[ Choose your user type ]</option>
+                <option>Teacher</option>
+                <option>Admin</option>
+                <option>Police</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div> 
     </div>
-  </div>
+  </div> 
   <footer>
     <a href="http://localhost:8080/teachers.html">teachers</a>
     <a href="http://localhost:8080/police.html">police</a>
@@ -49,11 +49,6 @@
       <h6 class="copyright">© 2015</h6>
     </div>
   </footer>
- 
-  <script src="Models/user.js"></script>
-  <script src="Models/room.js"></script>
-  <script src="Collections/users.js"></script>
-  <script src="Collections/rooms.js"></script>
   <script src="index.js"></script> 
 </body>
 </html>  

@@ -8,6 +8,7 @@
   <script src="/bower_components/handlebars/handlebars.js"></script>
   <script src="/bower_components/jquery/dist/jquery.js"></script>
   <script src="/bower_components/moment/moment.js"></script>
+  <script src="/bower_components/highcharts-release/highcharts.js"></script>
 
 </head>
 <body>
@@ -16,7 +17,6 @@
       <main>
        <div class="map">
           <div class="main-st"><br><br><br>M<br>a<br>i<br>n</div>
-
           <div class="hs-cte"> CTE
             <div id="room-54" class="room fifty-four">54</div>
             <div id="room-53" class="room fifty-three">53</div>
@@ -25,7 +25,6 @@
             <div id="room-56" class="room fifty-six-seven">56-57</div>
             <div id="room-51" class="room fifty-one">51</div>
           </div>
-
           <div class="highschool">
             <div id="room-18" class="room LR"><i class="fa fa-female"></i></div>
             <div id="room-303" class="room three-o-three">303</div>
@@ -36,49 +35,34 @@
             <div id="room-12" class="room office">Off</div>
             <div id="room-312" class="room three-twelve">312</div>
           </div>
-
           <div id="room-17" class="room library">
             <p>Library</p>
             <p>215</p>
             <div id="room-216" class="room two-sixteen">216</div>
           </div>
-
           <div id="room-15" class="room old-gym">
             <p>OLD GYM</p>
           </div>
-
           <div class="east"><br><br><br>2<br>0<br>0<br><br><br>E<br>a<br>s<br>t</div>
-
           <div id="room-16" class="room new-gym">
             <p>NEW GYM</p>
             <div id="room-14" class="room band">Band</div>
             <div id="room-13" class="room weights">Wghts</div>
           </div>
-
           <div class="south">200 South</div>
         </div>
-
-
-
         <div class="legend"> 
           <div class="indicator-unreported"></div>
           <h4>Unreported</h4>
-        
-        
           <div class="indicator-good"></div>
           <h4>Good</h4> 
-        
           <div class="indicator-missing-student"></div>
           <h4>Missing Student</h4>
-          
           <div class="indicator-help"></div>
           <h4>help</h4>  
         </div>
-
       </main>
-
       <aside>
-        <!-- <hr class="divide"> -->
         <hr>
           <h1>Pima</h1>
         <hr>
@@ -102,7 +86,6 @@
       </div> 
     </footer>
   </div>
-
   <script type="text/x-handlebars-template" id="hbs">
     {{#each this}}
       <option value="{{id}}">{{name}}</option>

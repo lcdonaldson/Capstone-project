@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>TIPS</title>
-    <link rel="stylesheet" href="styles.css" class=""></link>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"></link>
-    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
-    <script src="/bower_components/handlebars/handlebars.js"></script>
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/moment/moment.js"></script>
+  <meta charset="UTF-8">
+  <title>TIPS</title>
+  <link rel="stylesheet" href="styles.css" class=""></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"></link>
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css"></link>
+  <script src="/bower_components/handlebars/handlebars.js"></script>
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/moment/moment.js"></script>
+  <script src="/bower_components/highcharts-release/highcharts.js"></script>
 </head>
 <body>
   <div class="panel template">
@@ -27,7 +28,6 @@
       <a href="http://localhost:8080/index.html">home</a>
     </footer>
   </div>
-  
   <script type="text/x-handlebars-template" id="hbs">
     {{#each this}}
       <option value="{{id}}">{{name}}</option>

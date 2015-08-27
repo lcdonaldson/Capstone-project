@@ -9,18 +9,18 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/handlebars/handlebars.js"></script>
     <script src="/bower_components/moment/moment.js"></script>
+    <script src="/bower_components/highcharts-release/highcharts.js"></script>
 </head>
 <body>
   <div class="panel hero">
     <div>
       <div class="primary header">
-        <a name="home"> </a>
+        <a name="home"></a>
         <div class="login">
           <button>
             <a href="/login.html">Login</a>
           </button>
         </div>
-        
         <nav class="clear"> 
           <a href="#home">Home</a>
           <a href="#about-us">About Us</a>
@@ -28,9 +28,7 @@
           <a href="#testimonials">Testimonials</a>
           <a href="#contact">Contact Us</a>
         </nav>
-       
       </div>
-      
       <div class="pagename-header">
         <h1>tips</h1>
         <p>verb \ˈtɪpˌs \ (-pp-)</p>
@@ -41,7 +39,6 @@
       </div> 
     </div>
   </div>
-
   <div class="panel about-us">
     <div>
       <h1><a name="about-us"></a>Our Mission</h1>
@@ -51,13 +48,11 @@
         <h3>Communication</h3>
         <p>We provide silent, effective communication between teachers an Law Enforcement during lock-down situations</p>
       </div>
-
       <div class="tile safety"> 
         <i class="fa fa-lock fa-4x"></i>
         <h3>Safety</h3>
         <p>Our Software lets teachers give immediate status updates to police about their current class situation</p>
       </div>
-
       <div class="tile speed">
         <i class="fa fa-flash fa-4x"></i>
         <h3>Speed</h3>
@@ -65,7 +60,6 @@
       </div>
     </div> 
   </div>
-
   <div class="panel services">
     <div>
       <h1><a name="services"></a>Services</h1>
@@ -76,32 +70,29 @@
           <i class="fa fa-graduation-cap"></i>
           <div class="trick"> </div>
           <h2>Teachers</h2>
-          <p class="quote">We report our status</p>
+          <p class="quote">"We report our status"</p>
         </div>
       </div>
-
       <div class="breakout cop">
         <img src="images/cop.png" alt="">
         <div class="title">
           <i class="fa fa-car"></i>
           <div class="trick"> </div>
           <h2>Police</h2>
-          <p class="quote">We respond to help</p>
+          <p class="quote">"We respond to help"</p>
         </div>
       </div>
-
       <div class="breakout admin">
         <img src="images/admin.png" alt="">
         <div class="title">
           <i class="fa fa-university"></i>
           <div class="trick"> </div>
           <h2>Admin</h2>
-          <p class="quote">We evaluate the data</p>
+          <p class="quote">"We evaluate the data"</p>
         </div>
       </div>
     </div>
   </div>
-
   <div class="panel testimonials">
     <div>
       <main>  
@@ -111,22 +102,18 @@
           <img src="images/tst.png" alt="">
             <p><em><span>"G</span>reatly improves down-time during drills, and helps us see where to improve...<br> Brady"</em></p>
         </div>
-
         <div class="endorse">  
           <img src="images/tst3.png" alt="">  
             <p><em><span>"I</span> can send updates about my students and my room to police in real-time, wow...<br> Gina"</em></p>
         </div>
-
         <div class="endorse">  
           <img src="images/tst2.png" alt=""> 
             <p><em><span>"A</span>s a Principal this helps me evaluate lockdowns as they happen...<br> Tom"</em></p>
         </div>
-
         <div class="endorse">  
           <img src="images/tst4.png" alt="">  
             <p><em><span>"R</span>emain silent and still communicate effectively. Tips gives us this ability...<br> Tanya"<em></p>
         </div>
-
         <div class="endorse">  
           <img src="images/tst5.png" alt=""> 
             <p><em><span>"T</span>his app helps Police to quickly prioritize threat areas to focus on...<br> Kevin"</em></p>
@@ -138,7 +125,7 @@
     <div>
       <h1><a name="contact">Contact Us</a></h1>
       <hr>
-      <p>We would love to answer your question</p>
+      <p>We would love to answer your questions</p>
       <form class="contact-form" method="GET" action="formprocessor.html" >
         <div class="input">             
           <input class="input-boxes" type="text" name="name" placeholder="name" required>
@@ -164,7 +151,6 @@
     <h6 class="copyright">© 2015</h6>
   </div> 
   </footer>
-
   <script type="text/x-handlebars-template" id="hbs">
     {{#each this}}
       <option value="{{id}}">{{name}}</option>

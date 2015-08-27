@@ -7,7 +7,7 @@ $(function () {
     var roomsUrl = 'http://localhost:3000/rooms'
     var usersUrl = 'http://localhost:3000/users'
 
-    // ******************** NAV BAR SHADOW ON SCROLL ******************
+    // ************ NAV BAR SHADOW BACKGROUND ON SCROLL **********
 
     var roomDropdown = $('.room-dropdown')
 
@@ -31,7 +31,6 @@ $(function () {
         var template = Handlebars.compile(txtinfo)
 
         $.get(roomsUrl).done(function(rooms) {
-            console.log(rooms)
             var htmlResult = template(rooms)
             roomDropdown.html(htmlResult)
         })
@@ -56,57 +55,47 @@ $(function () {
 
     $('.room-teacher-options').on('submit', function (event) {
 
-
-    //**************** Check to see if password field is empty *************
+    // **************** Check to see if password field is empty ************
 
         if ($('.set-password').val() !== '') {
             var statusId = 3
         } else {
             var statusId = $('input:checked').val()
         }
-    
-        // var statusId = condition ? 3 : $('input:checked').val()
-
 
         var updateInfo = {
-            statusId: statusId, //$('input:checked').val(),
+            statusId: statusId,
             lastreportedtime: Date.now()
         }
 
         var roomId = $('.room-dropdown').val()
-        // console.log(roomId);
-        
+     
         $.ajax({ 
             url:'http://localhost:3000/rooms/' + roomId,   
             type: 'PUT',
             data: updateInfo
         }).done(function (data) {
-            // console.log(data)
+  
         })
        
         location.href = 'http://localhost:8080/thank-you.html'
-
-        event.preventDefault()
-        
+        event.preventDefault()  
     }) 
 
-    // *********** Thank you page button click ********************
+    // *********** Thank you page button click ****************
 
     $('thank-you-btn').on('click', function () {
         location.href = 'http://localhost:8080/teachers.html'   
     })
-
-    // *********** Police page ********************
+    // *********** Police page *************
 
     var datainfo = $('#output').html()
     var timeTemplate = Handlebars.compile(datainfo)
 
     if (policeUrl == location.href) {
-
         $.get(roomsUrl)
             .done(function (rooms) {
                 var status = rooms.statusId
-    
                 rooms.forEach(function (room) {   
                     room.lastreportedtime = moment(room.lastreportedtime).format("h:mm:ss a")
 
@@ -123,12 +112,10 @@ $(function () {
                         $('#room-'+room.id).addClass('status-help')
                     }
                     room.statusState = status
-                    console.log(room)
                 })
                 var htmlResult = timeTemplate({rooms: rooms})
                 
                 $('.time').append(htmlResult) 
-
             })   
     }
      
@@ -141,7 +128,6 @@ $(function () {
                 var updateStatus = {
                     statusId: 0 
                 }
-
                 $.ajax({
                     url: 'http://localhost:3000/rooms/' + room.id,
                     type: 'PUT',
@@ -194,7 +180,7 @@ $(function () {
         },
         tooltip: {
             shared: true,
-            valueSuffix: ' units'
+            valueSuffix: ' minutes'
         },
         credits: {
             enabled: false
@@ -206,12 +192,11 @@ $(function () {
         },
 
         series: [{
-            name:'Number of drill excersizes',
+            name:'Drill excersizes in minutes',
             data: [154, 110, 85, 70, 65, 64, 60]    
         }]
     })
             
-
 
 })
 

@@ -394,31 +394,32 @@ span {
   font-size: 28pt;
   font-weight: lighter;
 }
-/************* Contact Us ***********/
-
 /************** LOGIN PAGE ****************/
+.static {
+  min-height: 600px;
+  position: relative;
+}
+
 .user-login {
   text-align: center;
   margin: auto;
-  margin-top: 120px;
   height: 300px;
-  width: 450px;
-  background-color: #fff;
+  width: 555px;
+  color: black;
   border-radius: 4px;
-  background-color: lightblue;
-  position: relative;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  bottom: 20%;
+  right: 28%;
 }
 
 .user-selection {
   padding: 10px;
   width: 85px;
   position: absolute;
-  bottom: 237px;
-  right: 134px;
-}
-
-.user-dropdown {
-
+  bottom: 230px;
+  right: 296px;
+  color: white;
 }
 
 .access {
@@ -434,6 +435,7 @@ span {
 
 .access > input {
   margin: 10px;
+  /*font-weight: bold;*/
   -webkit-box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
   -moz-box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
   box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
@@ -452,6 +454,7 @@ span {
   display: inline-block;
   background-color: rgba(26, 26, 26, .0);
   text-align: center;
+  position: relative;
 }
 
 .teacher-request {
@@ -612,7 +615,7 @@ input[type=radio]{
   width: 175px;
   height: 90px;
   position: absolute;
-  opacity: 0.8;
+  opacity: 1;
   bottom: 200px;
   right: 152px;
 }
@@ -622,6 +625,7 @@ input[type=radio]{
   height: 28px;
   width: 40px;
   position: absolute;
+  color: black;
   bottom: 57px;
   right: 38px;
 }
@@ -631,6 +635,7 @@ input[type=radio]{
   height: 28px;
   width: 35px;
   position: absolute;
+  color: black;
   bottom: 57px;
   right: 79px;
 }
@@ -640,6 +645,7 @@ input[type=radio]{
   height: 28px;
   width: 33px;
   position: absolute;
+  color: black;
   bottom: 57px;
   right: 4px;
 }
@@ -649,6 +655,7 @@ input[type=radio]{
   height: 28px;
   width: 32px;
   position: absolute;
+  color: black;
   bottom: 32px;
   right: 138px;
 }
@@ -658,6 +665,7 @@ input[type=radio]{
   height: 28px;
   width: 58px;
   position: absolute;
+  color: black;
   bottom: 2px;
   right: 82px;
 }
@@ -667,6 +675,7 @@ input[type=radio]{
   height: 20px;
   width: 39px;
   position: absolute;
+  color: black;
   bottom: 2px;
   right: 5px;
 }
@@ -677,7 +686,7 @@ input[type=radio]{
   width: 186px;
   height: 105px;
   position: absolute;
-  opacity: 0.8;
+  opacity: 1;
   bottom: 190px;
   right: 457px
 }
@@ -687,6 +696,7 @@ input[type=radio]{
   height: 32px;
   width: 30px;
   position: absolute;
+  color: black;
   bottom: 64px;
   right: 150px;
 }
@@ -696,6 +706,7 @@ input[type=radio]{
   height: 32px;
   width: 50px;
   position: absolute;
+  color: black;
   bottom: 64px;
   right: 95px;
 }
@@ -705,6 +716,7 @@ input[type=radio]{
   height: 34px;
   width: 45px;
   position: absolute;
+  color: black;
   bottom: 63px;
   right: 37px;
 }
@@ -714,6 +726,7 @@ input[type=radio]{
   height: 34px;
   width: 30px;
   position: absolute;
+  color: black;
   bottom: 63px;
   right: 3px;
 }
@@ -728,6 +741,7 @@ input[type=radio]{
   height: 30px;
   width: 60px;
   position: absolute;
+  color: black;
   bottom: 1px;
   right: 118px;
 }
@@ -737,6 +751,7 @@ input[type=radio]{
   height: 30px;
   width: 44px;
   position: absolute;
+  color: black;
   bottom: 1px;
   right: 40px;
   
@@ -747,6 +762,7 @@ input[type=radio]{
   height: 30px;
   width: 35px;
   position: absolute;
+  color: black;
   bottom: 1px;
   right: 1px;
 }
@@ -757,7 +773,7 @@ input[type=radio]{
   height: 146px;
   position: absolute;
   border-radius: 8px;
-  opacity: 0.8;
+  opacity: 1;
   bottom: 344px;
   right: 427px;
 }
@@ -768,6 +784,7 @@ input[type=radio]{
   height: 37px;
   width: 50px;
   position: absolute;
+  color: black;
   bottom: 4px;
   right: 15px;
 }
@@ -778,7 +795,7 @@ input[type=radio]{
   height: 121px;
   position: absolute;
   border-radius: 8px;
-  opacity: 0.8;
+  opacity: 1;
   padding: 20px;
   bottom: 180px;
   right: 348px;
@@ -790,7 +807,7 @@ input[type=radio]{
   height: 120px;
   position: absolute;
   border-radius: 8px;
-  opacity: 0.8;
+  opacity: 1;
   padding-top: 33px;
   padding-left: 5px;
   bottom: 230px;
@@ -803,6 +820,7 @@ input[type=radio]{
   height: 37px;
   width: 45px;
   position: absolute;
+  color: black;
   bottom: 70px;
   right: 4px;
 }
@@ -813,13 +831,9 @@ input[type=radio]{
   height: 37px;
   width: 50px;
   position: absolute;
+  color: black;
   bottom: 4px;
   right: 4px;
-}
-
-.checkbox {
-  height: 13px;
-  width: 18px;
 }
 /************** street ****************/
 .east {
@@ -846,13 +860,11 @@ input[type=radio]{
 }
 
 .legend {
-
   display: flex;
 }
 
 .legend > h4 {
   flex: .75;
- 
   height: 30px;
   width: 30px;
   margin: 0px;
@@ -932,9 +944,10 @@ aside > hr {
 }
  /****************** ADMIN *******************/
 .admin-reset {
-position:relative;
-bottom: 10px;
 margin: 0 auto;
+position: absolute;
+bottom: 5px;
+right: 40%;
 }
 
 .reset-btn {

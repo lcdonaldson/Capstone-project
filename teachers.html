@@ -9,6 +9,7 @@
     <script src="/bower_components/handlebars/handlebars.js"></script>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/moment/moment.js"></script>
+    <script src="/bower_components/highcharts-release/highcharts.js"></script>
 </head>
 <body>
   <div class="panel template">
@@ -16,7 +17,6 @@
       <div class="teacher-request">
         <form method="GET" action="" class="room-teacher-options">
           <h1>TEACHERS</h1>
-
           <div class="drop-option"> Room:
             <select class="room-dropdown" name="product" required></select>
           </div>
@@ -29,7 +29,6 @@
             <input type="radio" name="status" id="help" value="3">
             <label for="help" class="status help"> Help</label>
           </div>
-
           <div class="confirm">             
             <input class="set-password" type="password" name="pswd" placeholder="Password">
             <input type="submit" value="Enter">
@@ -38,7 +37,6 @@
       </div>
     </div>
   </div>
-
   <footer>
     <a href="http://localhost:8080/teachers.html">teachers</a>
     <a href="http://localhost:8080/police.html">police</a>
@@ -53,7 +51,6 @@
       <h6 class="copyright">© 2015</h6>
     </div>
   </footer>
-
   <script type="text/x-handlebars-template" id="hbs">
     <option selected>Select one...</option>
     {{#each this}}
