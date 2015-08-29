@@ -43,14 +43,14 @@
       "username": "Mr. Cooper",
       "name": "room 51",
       "statusId": 0,
-      "lastreportedtime": 1440698267076
+      "lastreportedtime": 1440817872029
     },
     {
       "id": 52,
       "name": "room 52",
       "username": "Mr. Leavitt",
       "statusId": 0,
-      "lastreportedtime": 1440698273269
+      "lastreportedtime": 1440817866124
     },
     {
       "id": 53,
@@ -71,7 +71,7 @@
       "name": "room 55",
       "username": "Ms. Chen",
       "statusId": 0,
-      "lastreportedtime": 1440698325556
+      "lastreportedtime": 1440817927466
     },
     {
       "id": 56,
@@ -106,7 +106,7 @@
       "name": "room 309",
       "username": "Mr. Donaldson",
       "statusId": 0,
-      "lastreportedtime": 1440698194084
+      "lastreportedtime": 1440817803398
     },
     {
       "id": 312,
