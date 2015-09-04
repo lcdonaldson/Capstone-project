@@ -43,35 +43,35 @@
       "username": "Mr. Cooper",
       "name": "room 51",
       "statusId": 0,
-      "lastreportedtime": 1440817872029
+      "lastreportedtime": 1440864079086
     },
     {
       "id": 52,
       "name": "room 52",
       "username": "Mr. Leavitt",
       "statusId": 0,
-      "lastreportedtime": 1440817866124
+      "lastreportedtime": 1440864084585
     },
     {
       "id": 53,
       "name": "room 53",
       "username": "Mr. Walters",
       "statusId": 0,
-      "lastreportedtime": 1440626435741
+      "lastreportedtime": 1441216918955
     },
     {
       "id": 54,
       "name": "room 54",
       "username": "Mrs. Smith",
       "statusId": 0,
-      "lastreportedtime": 1440650355031
+      "lastreportedtime": 1441216895134
     },
     {
       "id": 55,
       "name": "room 55",
       "username": "Ms. Chen",
-      "statusId": 0,
-      "lastreportedtime": 1440817927466
+      "statusId": 1,
+      "lastreportedtime": 1441219896938
     },
     {
       "id": 56,
@@ -105,8 +105,8 @@
       "id": 309,
       "name": "room 309",
       "username": "Mr. Donaldson",
-      "statusId": 0,
-      "lastreportedtime": 1440817803398
+      "statusId": 2,
+      "lastreportedtime": 1441303170306
     },
     {
       "id": 312,
@@ -127,7 +127,7 @@
       "name": "weights",
       "username": "Mr. Mullenaux",
       "statusId": 0,
-      "lastreportedtime": 1440626585594
+      "lastreportedtime": 1441216192644
     },
     {
       "id": 14,
@@ -161,13 +161,13 @@
       "id": 18,
       "name": "room LR",
       "statusId": 0,
-      "lastreportedtime": 1440626722064
+      "lastreportedtime": 1440864062208
     },
     {
       "id": 19,
       "name": "room MR",
       "statusId": 0,
-      "lastreportedtime": 1440626698327
+      "lastreportedtime": 1440864048561
     }
   ]
 }
