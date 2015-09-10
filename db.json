@@ -64,13 +64,13 @@
       "name": "room 54",
       "username": "Mrs. Smith",
       "statusId": 0,
-      "lastreportedtime": 1441216895134
+      "lastreportedtime": 1441421276265
     },
     {
       "id": 55,
       "name": "room 55",
       "username": "Ms. Chen",
-      "statusId": 1,
+      "statusId": 0,
       "lastreportedtime": 1441219896938
     },
     {
@@ -105,8 +105,8 @@
       "id": 309,
       "name": "room 309",
       "username": "Mr. Donaldson",
-      "statusId": 2,
-      "lastreportedtime": 1441303170306
+      "statusId": 0,
+      "lastreportedtime": 1441421147948
     },
     {
       "id": 312,
