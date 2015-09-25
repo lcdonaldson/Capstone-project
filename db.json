@@ -43,77 +43,77 @@
       "username": "Mr. Cooper",
       "name": "room 51",
       "statusId": 0,
-      "lastreportedtime": 1440864079086
+      "lastreportedtime": 1441864048535
     },
     {
       "id": 52,
       "name": "room 52",
       "username": "Mr. Leavitt",
       "statusId": 0,
-      "lastreportedtime": 1440864084585
+      "lastreportedtime": 1441864042010
     },
     {
       "id": 53,
       "name": "room 53",
       "username": "Mr. Walters",
       "statusId": 0,
-      "lastreportedtime": 1441216918955
+      "lastreportedtime": 1441864076026
     },
     {
       "id": 54,
       "name": "room 54",
       "username": "Mrs. Smith",
       "statusId": 0,
-      "lastreportedtime": 1441421276265
+      "lastreportedtime": 1441864082891
     },
     {
       "id": 55,
       "name": "room 55",
       "username": "Ms. Chen",
       "statusId": 0,
-      "lastreportedtime": 1441219896938
+      "lastreportedtime": 1442973756078
     },
     {
       "id": 56,
       "name": "room 56-57",
       "username": "Mr. Goodman",
       "statusId": 0,
-      "lastreportedtime": 1440626868171
+      "lastreportedtime": 1441864094068
     },
     {
       "id": 216,
       "name": "room 216",
       "username": "Mrs. Moody",
       "statusId": 0,
-      "lastreportedtime": 1440627297747
+      "lastreportedtime": 1442973678663
     },
     {
       "id": 302,
       "name": "room 302",
       "username": "Mr. Patton",
       "statusId": 0,
-      "lastreportedtime": 1440626506360
+      "lastreportedtime": 1441864106062
     },
     {
       "id": 303,
       "username": "Mrs. Weech",
       "name": "room 303",
       "statusId": 0,
-      "lastreportedtime": 1440626669912
+      "lastreportedtime": 1441864114327
     },
     {
       "id": 309,
       "name": "room 309",
       "username": "Mr. Donaldson",
       "statusId": 0,
-      "lastreportedtime": 1441421147948
+      "lastreportedtime": 1442973618471
     },
     {
       "id": 312,
       "username": "Mrs. Schlittenhart",
       "name": "room 312",
       "statusId": 0,
-      "lastreportedtime": 1440626635440
+      "lastreportedtime": 1441864133663
     },
     {
       "id": 12,
@@ -127,7 +127,7 @@
       "name": "weights",
       "username": "Mr. Mullenaux",
       "statusId": 0,
-      "lastreportedtime": 1441216192644
+      "lastreportedtime": 1441864165509
     },
     {
       "id": 14,
@@ -141,21 +141,21 @@
       "name": "old gym",
       "username": "Mr. Powers",
       "statusId": 0,
-      "lastreportedtime": 1440656461342
+      "lastreportedtime": 1441864172415
     },
     {
       "id": 16,
       "name": "new gym",
       "username": "Mrs. Rickertt",
       "statusId": 0,
-      "lastreportedtime": 1440626882022
+      "lastreportedtime": 1441864182033
     },
     {
       "id": 17,
       "name": "library",
       "username": "Ms. Wright",
       "statusId": 0,
-      "lastreportedtime": 1440650373755
+      "lastreportedtime": 1441864214171
     },
     {
       "id": 18,
