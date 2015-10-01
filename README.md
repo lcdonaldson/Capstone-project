@@ -22,5 +22,7 @@ This software is propriatary and as such I haven't revealed all of its features 
 private information relevant to school districts. This Application is set for pilot testing in the first quarter of 
 2016. Any comments or suggestions are welcome. Please enjoy TIPS.
 
+http://lcdonaldson.github.io/Capstone-project.
+
 
 
