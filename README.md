@@ -17,9 +17,7 @@ Administration play a major role in this project too. They are many times, the i
 they arrive on scene. Their main job however, is to evaluate the effectiveness of the response in their schools. They
 also have the ability to reset the room status back to unreported when the drill is completed. 
 
-This project is only the front-end side of the application. A robust and secure backend will be added at a later date. I will probably do this java first and then get some help to run it in objective c or python.
-This software is propriatary and as such I haven't revealed all of its features as some of them deal with security and
-private information relevant to school districts. This Application is set for pilot testing in the first quarter of 
+This project is only the front-end side of the application. A robust and secure backend will be added at a later date. This will be done as a Django project in Python. This software is propriatary and as such I haven't revealed all of its features as some of them deal with security and private information relevant to school districts. This Application is set for pilot testing in the first quarter of 
 2016. Any comments or suggestions are welcome. Please enjoy TIPS.
 
 http://lcdonaldson.github.io/Capstone-project.
