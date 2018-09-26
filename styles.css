@@ -24,8 +24,8 @@ font-family: Courier;
 
 body {
   height: 100%;
-  padding: 0px;
-  margin: 0px; 
+  padding: 0;
+  margin: 0; 
 }
 
 hr {
@@ -71,7 +71,7 @@ LAYOUT   (PANELS)
 
 .login {
   width: 60px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 5px;
 }
 
@@ -224,7 +224,7 @@ footer {
 
 .copyright {
   text-align: center;
-  margin: 0px;
+  margin: 0;
   padding-top: 30px;
 }
 /************* POLICE PAGE LAYOUT **************/
@@ -265,7 +265,7 @@ COMPONENTS
 
 .pagename-header h1 {
   font-size: 110pt;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .pagename-header p {
@@ -340,7 +340,7 @@ COMPONENTS
 
 .fa-graduation-cap, .fa-car, .fa-university {
   padding: 0px 6px 4px 6px;
-  margin: 0px;
+  margin: 0;
   color: #666666;
   background-color: #F5F5F5;
   border: 7px solid transparent;
@@ -867,7 +867,7 @@ input[type=radio]{
   flex: .75;
   height: 30px;
   width: 30px;
-  margin: 0px;
+  margin: 0;
 }
 
 .indicator-unreported {
