@@ -91,7 +91,7 @@ LAYOUT   (PANELS)
 
 .services > div {
   text-align: center;
-  padding-bottom: 35px;
+  padding-bottom: 2rem;
 }
 
 .services .breakout {
