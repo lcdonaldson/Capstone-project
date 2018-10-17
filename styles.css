@@ -51,7 +51,7 @@ a {
 .solid {
   position: fixed;
   text-align: right;
-  padding-top: 15px;
+  padding-top: 1rem;
   height: 64px;
   width: 100vw;
   left: 0px;
