@@ -64,7 +64,7 @@ LAYOUT   (PANELS)
 
 /*********** HERO ***********/
 .primary-header {
-  height: 130px;
+  height: 8rem;
   position: relative;
   background-color: tan;
 }
