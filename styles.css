@@ -102,8 +102,8 @@ LAYOUT   (PANELS)
 }
 /********** TESTIMONIALS **********/
 .testimonials {
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 1.4rem;
+  padding-top: 1.4rem;
 }
 
 .testimonials > div > main {
