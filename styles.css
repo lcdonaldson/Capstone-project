@@ -147,7 +147,7 @@ LAYOUT   (PANELS)
 .message {
   display: inline-block;
   width: 363px;
-  padding: 7px;
+  padding: 0.5rem;
   vertical-align: top;
 }
 
