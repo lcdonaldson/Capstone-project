@@ -168,7 +168,7 @@ LAYOUT   (PANELS)
 
 .msg-btn {
   width: 80px;
-  margin: 11px auto;
+  margin: 0.8rem auto;
 }
 
 .msg-sent {
