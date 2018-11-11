@@ -172,7 +172,7 @@ LAYOUT   (PANELS)
 }
 
 .msg-sent {
-  padding: 4px;
+  padding: 0.2rem;
   margin-left: -23px;
   margin-top: 0.8rem;
   width: 120px;
