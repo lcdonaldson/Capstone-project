@@ -238,7 +238,7 @@ aside {
   /*background-color: yellow;*/
   min-height: 200px;
   width: 270px;
-  border-left: 2px solid grey;
+  border-left: 0.1rem solid grey;
 }
 /**************************************
 COMPONENTS
