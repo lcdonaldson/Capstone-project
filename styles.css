@@ -342,7 +342,7 @@ COMPONENTS
   color: #666666;
   background-color: #F5F5F5;
   border: 7px solid transparent;
-  height: 5px;
+  height: 0.5rem;
 }
 /****** upside down house look in tiles *******/
 .trick {
