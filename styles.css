@@ -384,7 +384,7 @@ COMPONENTS
 
 .endorse:nth-child(odd) {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 1.4rem;
   margin-top: 140px; 
 }
 
