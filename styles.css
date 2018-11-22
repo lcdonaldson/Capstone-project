@@ -18,8 +18,8 @@ html {
 DEFAULTS
 *******************************/
 * {
-text-decoration: none;
-font-family: Courier;
+  text-decoration: none;
+  font-family: Courier;
 }
 
 body {
