@@ -513,7 +513,7 @@ form > h3 {
 
 .btn-group input:checked + .good {
   background-color: rgba(36, 243, 4, 0.64);
-  color: white;
+  color: #ffffff;
 }
 
 .btn-group input:checked + .missing {
