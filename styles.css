@@ -404,7 +404,7 @@ span {
   margin: auto;
   height: 300px;
   width: 555px;
-  color: black;
+  color: #000;
   border-radius: 4px;
   background-color: rgba(0,0,0,0.3);
   position: absolute;
