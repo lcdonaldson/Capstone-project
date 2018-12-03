@@ -523,7 +523,7 @@ form > h3 {
 
 .btn-group input:checked + .help {
   background-color: red;
-  color: white;
+  color: #fff;
 }
 
 .btn-group input:checked + label i.fa {
