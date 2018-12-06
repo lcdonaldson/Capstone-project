@@ -308,7 +308,7 @@ COMPONENTS
 
 .tile > p {
   text-align: center;
-  padding: 10px;
+  padding: 0.8rem;
   font-size: 12pt;
 }
 /************ SERVICES **************/
