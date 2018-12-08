@@ -953,7 +953,7 @@ right: 40%;
   border: none;
   border-radius: 15px;
   color: #fff;
-  padding: 10px;
+  padding: 0.8rem;
   background: rgba(124,212,244,1);
   background: -moz-linear-gradient(top, rgba(124,212,244,1) 0%, rgba(124,212,244,1) 1%, rgba(40,104,200,1) 49%, rgba(43,188,233,1) 94%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(124,212,244,1)), color-stop(1%, rgba(124,212,244,1)), color-stop(49%, rgba(40,104,200,1)), color-stop(94%, rgba(43,188,233,1)));
