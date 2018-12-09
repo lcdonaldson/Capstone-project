@@ -439,7 +439,7 @@ span {
   -moz-box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
   box-shadow: inset 0px 2px 32px -6px rgba(0,0,0,0.6);
   border: none;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 /**************** TEACHERS PAGE ****************/
 .template {
