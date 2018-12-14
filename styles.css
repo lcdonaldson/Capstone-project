@@ -351,7 +351,7 @@ COMPONENTS
   height: 0;
   border-left: 23px solid transparent;
   border-right: 23px solid transparent;
-  border-top: 16px solid #F5F5F5;
+  border-top: 1rem solid #F5F5F5;
   margin: -7px auto;
 }
 /********** Testimonials ***********/
