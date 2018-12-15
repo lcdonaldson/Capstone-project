@@ -610,7 +610,7 @@ input[type=radio]{
 /************ CTE ***************/
 .hs-cte {
   border: .15em solid black;
-  border-radius: 4px;
+  border-radius: 0.2rem;
   width: 175px;
   height: 90px;
   position: absolute;
