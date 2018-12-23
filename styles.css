@@ -795,7 +795,7 @@ input[type=radio]{
   position: absolute;
   border-radius: 0.8rem;
   opacity: 1;
-  padding: 20px;
+  padding: 1.2rem;
   bottom: 180px;
   right: 348px;
 }
