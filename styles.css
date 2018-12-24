@@ -367,7 +367,7 @@ COMPONENTS
 }
 
 .endorse p {
-  min-height: 40px;
+  min-height: 2.7rem;
   width: 118px;
   border: 1px solid transparent;
   font-family: Courier bold;
