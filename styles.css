@@ -665,7 +665,7 @@ input[type=radio]{
   width: 58px;
   position: absolute;
   color: black;
-  bottom: 2px;
+  bottom: 0.1rem;
   right: 82px;
 }
 
