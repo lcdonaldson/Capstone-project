@@ -518,7 +518,7 @@ form > h3 {
 
 .btn-group input:checked + .missing {
   background-color: #CCCC00;
-  color: white;
+  color: #fff;
 }
 
 .btn-group input:checked + .help {
