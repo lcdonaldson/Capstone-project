@@ -79,14 +79,14 @@ LAYOUT   (PANELS)
   min-height: 34rem;
   position: relative;
 }
+
 /********** ABOUT US **********/
-.about-us > div {
-  text-align: center;
-}
+
+.about-us > div { text-align: center; }
+
 /********** SERVICES **********/
-.services {
-  background-color: #F5F5F5;
-}
+
+.services { background-color: #F5F5F5; }
 
 .services > div {
   text-align: center;
@@ -99,7 +99,9 @@ LAYOUT   (PANELS)
   width: 13rem;
   margin: 3.4rem;
 }
+
 /********** TESTIMONIALS **********/
+
 .testimonials {
   margin-top: 1.4rem;
   padding-top: 1.4rem;
@@ -110,15 +112,14 @@ LAYOUT   (PANELS)
   margin: 0 auto;
 }
 /********** CONTACT US **********/
+
 .contact-us {
   background-color: #F5F5F5;
   margin-top: 1.5rem;
   padding-top: 1.4rem;
 }
 
-.contact-us > div {
-  padding-bottom: 1rem;
-}
+.contact-us > div { padding-bottom: 1rem; }
 
 .contact-us > div > p {
   font-size: 1.2em;
@@ -127,9 +128,7 @@ LAYOUT   (PANELS)
   color: #BCBCBC;
 }
 
-.contact-us > div > h1 {
-  font-size: 2.5em;
-}
+.contact-us > div > h1 { font-size: 2.5em; }
 
 .contact-form {
   padding-top: 1rem;
@@ -179,7 +178,9 @@ LAYOUT   (PANELS)
   background-color: #777;
   color: #E3E3E3;
 }
+
 /************** FOOTER ************/
+
 footer {
   margin: 0 auto;
   background-color: #1A1A1A;
@@ -187,9 +188,7 @@ footer {
   min-height: 250px;
 }
 
-.footer-info {
-  padding-top: 1.2rem;
-}
+.footer-info { padding-top: 1.2rem; }
 
 .glyph {
   width: 2.5rem;
@@ -217,16 +216,16 @@ footer {
   padding-top: 35px;
 }
 
-.fa-google-plus,.fa-facebook,.fa-twitter,.fa-linkedin-square {
-  flex: 1;
-}
+.fa-google-plus,.fa-facebook,.fa-twitter,.fa-linkedin-square { flex: 1; }
 
 .copyright {
   text-align: center;
   margin: 0;
   padding-top: 2rem;
 }
+
 /************* POLICE PAGE LAYOUT **************/
+
 main {
   /*background-color: magenta;*/
   min-height: 200px;
@@ -239,6 +238,7 @@ aside {
   width: 270px;
   border-left: 0.1rem solid grey;
 }
+
 /**************************************
 COMPONENTS
 ***************************************/
@@ -267,9 +267,7 @@ COMPONENTS
   margin-bottom: 0;
 }
 
-.pagename-header p {
-  font-size: 1em;
-}
+.pagename-header p { font-size: 1em; }
 
 .fa-chevron-circle-down {
  position: absolute;
@@ -289,9 +287,7 @@ COMPONENTS
   left: 50px;
 }
 /************* About-Us *************/
-.about-us h1 {
-  font-size: 40pt;
-}
+.about-us h1 { font-size: 40pt; }
 
 .about-us h3 {
   color: #797979;
@@ -311,7 +307,9 @@ COMPONENTS
   padding: 0.8rem;
   font-size: 12pt;
 }
+
 /************ SERVICES **************/
+
 .services h1 {
   font-size: 40pt;
   padding-top: 40px;
@@ -323,9 +321,7 @@ COMPONENTS
   width: 210px;
 }
 
-.title {
-  margin: -10px;
-}
+.title { margin: -10px; }
 
 .title h2 {
   padding-bottom: 35px;
@@ -345,7 +341,9 @@ COMPONENTS
   border: 0.4rem solid transparent;
   height: 0.5rem;
 }
+
 /****** upside down house look in tiles *******/
+
 .trick {
   width: 0;
   height: 0;
@@ -354,7 +352,9 @@ COMPONENTS
   border-top: 1rem solid #F5F5F5;
   margin: -7px auto;
 }
+
 /********** Testimonials ***********/
+
 .testimonials h1 {
   font-size: 40pt;
 }
@@ -393,7 +393,9 @@ span {
   font-size: 28pt;
   font-weight: lighter;
 }
+
 /************** LOGIN PAGE ****************/
+
 .static {
   min-height: 600px;
   position: relative;
@@ -441,7 +443,9 @@ span {
   border: none;
   border-radius: 0.5rem;
 }
+
 /**************** TEACHERS PAGE ****************/
+
 .template {
   background-color: #E0F8FF;
   text-align: center;
@@ -563,7 +567,9 @@ input[type=radio]{
   -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
   box-shadow: inset 0px 0px 32px -9px rgba(0,0,0,0.6);
 }
+
 /***************** POLICE PAGE ************************/
+
 .police {
   background-color: #E0F8FF;
 }
@@ -574,7 +580,9 @@ input[type=radio]{
   margin: 0 auto;
   display: flex;
 }
+
 /*********** MAIN **********/
+
 .map {
   position: relative;
   width: 710px;
@@ -592,22 +600,16 @@ input[type=radio]{
   left: 33px;
 }
 
-.status-unreported {
-  background-color: white;
-}
+.status-unreported { background-color: white; }
 
-.status-good {
-  background-color: green;
-}
+.status-good { background-color: green; }
 
-.status-missing-student {
-  background-color: yellow;
-}
+.status-missing-student { background-color: yellow; }
 
-.status-help {
-  background-color: red;
-}
+.status-help { background-color: red; }
+
 /************ CTE ***************/
+
 .hs-cte {
   border: .15em solid black;
   border-radius: 0.2rem;
@@ -678,7 +680,9 @@ input[type=radio]{
   bottom: 2px;
   right: 5px;
 }
+
 /************ HIGH SCHOOL ***************/
+
 .highschool {
   border: .15em solid black;
   border-radius: 4px;
@@ -834,7 +838,9 @@ input[type=radio]{
   bottom: 4px;
   right: 4px;
 }
+
 /************** street ****************/
+
 .east {
   border-radius: 4px;
   background-color: black;
