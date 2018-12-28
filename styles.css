@@ -460,9 +460,7 @@ span {
   position: relative;
 }
 
-.teacher-request {
-  text-align: center;
-}
+.teacher-request { text-align: center; }
 
 .teacher-request > form {
   display: inline-block;
@@ -477,9 +475,7 @@ span {
   color: rgba(0, 0, 0, .6);
 }
 
-.room-dropdown {
-  width: 150px;
-}
+.room-dropdown { width: 150px; }
 
 .drop-option {
   font-size: 14pt;
@@ -511,9 +507,7 @@ form > h3 {
   box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
 }
 
-.btn-group > label i.fa {
-  display: none;
-}
+.btn-group > label i.fa { display: none; }
 
 .btn-group input:checked + .good {
   background-color: rgba(36, 243, 4, 0.64);
@@ -530,13 +524,9 @@ form > h3 {
   color: #fff;
 }
 
-.btn-group input:checked + label i.fa {
-  display: inline-block;
-}
+.btn-group input:checked + label i.fa { display: inline-block; }
 
-input[type=radio]{
-  display: none;
-} 
+input[type=radio]{ display: none; } 
 
 .good {
   background-color: transparent;
@@ -570,9 +560,7 @@ input[type=radio]{
 
 /***************** POLICE PAGE ************************/
 
-.police {
-  background-color: #E0F8FF;
-}
+.police { background-color: #E0F8FF; }
 
 .content-view {
   background-color: #ffffff;
@@ -769,7 +757,9 @@ input[type=radio]{
   bottom: 1px;
   right: 1px;
 }
+
 /********** Library **********/
+
 .room.library {
   border: .15em solid black;
   width: 75px;
@@ -791,7 +781,9 @@ input[type=radio]{
   bottom: 4px;
   right: 15px;
 }
+
 /********** GYM **********/
+
 .room.old-gym {
   border: .15em solid black;
   width: 107px;
@@ -864,9 +856,7 @@ input[type=radio]{
   right: 53px;
 }
 
-.legend {
-  display: flex;
-}
+.legend { display: flex; }
 
 .legend > h4 {
   flex: .75;
@@ -905,16 +895,16 @@ input[type=radio]{
   height: 30px;
   width: 30px;
 }
+
 /*********ASIDE*********/
+
 aside > h1 {
   text-align: center;
   font-size: 30pt;
   margin: 0.1rem;
 }
 
-aside > hr {
-  width: 225px;
-}
+aside > hr { width: 225px; }
 
 .time {
   width: 250px;
@@ -928,14 +918,12 @@ aside > hr {
   list-style: none;
   width: 180px;
 }
-/************** THANK YOU PAGE ****************/
-.thank-you {
-  padding-top: 150px;
-}
 
-.thank-you > h1 {
-  font-size: 50pt;
-}
+/************** THANK YOU PAGE ****************/
+
+.thank-you { padding-top: 150px; }
+
+.thank-you > h1 { font-size: 50pt; }
 
 .thank-you-btn {
   color: #fff;
@@ -947,12 +935,14 @@ aside > hr {
   -moz-box-shadow: inset 0px 2px 32px -1px rgba(0,0,0,0.6);
   box-shadow: inset 0px 0px 32px -9px rgba(0,0,0,0.6);
 }
+
  /****************** ADMIN *******************/
+
 .admin-reset {
-margin: 0 auto;
-position: absolute;
-bottom: 0.5rem;
-right: 40%;
+ margin: 0 auto;
+ position: absolute;
+ bottom: 0.5rem;
+ right: 40%;
 }
 
 .reset-btn {
