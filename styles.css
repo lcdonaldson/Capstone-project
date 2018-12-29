@@ -1,5 +1,5 @@
 /*******************************
-RESETS
+       RESETS
 *******************************/
 
 html {
@@ -14,9 +14,11 @@ html {
  box-sizing: inherit;
  color: inherit;
 }
+
 /*******************************
-DEFAULTS
+      DEFAULTS
 *******************************/
+
 * {
   text-decoration: none;
   font-family: Courier;
@@ -58,7 +60,7 @@ a {
 }
 
 /*******************************
-LAYOUT   (PANELS)
+    LAYOUT (PANELS)
 *******************************/
 
 /*********** HERO ***********/
@@ -240,8 +242,9 @@ aside {
 }
 
 /**************************************
-COMPONENTS
+            COMPONENTS
 ***************************************/
+
           /*HOME PAGE*/
 
 /************* HERO *************/
@@ -270,11 +273,11 @@ COMPONENTS
 .pagename-header p { font-size: 1em; }
 
 .fa-chevron-circle-down {
- position: absolute;
- bottom: 1rem;
- margin: 0.5rem;
- right: 50px;
- left: 50px;
+   position: absolute;
+   bottom: 1rem;
+   margin: 0.5rem;
+   right: 50px;
+   left: 50px;
  }
 
 .fa-chevron-circle-down p {
@@ -355,9 +358,7 @@ COMPONENTS
 
 /********** Testimonials ***********/
 
-.testimonials h1 {
-  font-size: 40pt;
-}
+.testimonials h1 { font-size: 40pt; }
 
 .endorse img {
   height: 150px;
@@ -430,9 +431,7 @@ span {
   width: 245px;
 }
 
-.choose-user {
-  background-color: green;
-}
+.choose-user { background-color: green; }
 
 .access > input {
   margin: 0.8rem;
