@@ -218,7 +218,10 @@ footer {
   padding-top: 35px;
 }
 
-.fa-google-plus,.fa-facebook,.fa-twitter,.fa-linkedin-square { flex: 1; }
+.fa-google-plus,
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin-square { flex: 1; }
 
 .copyright {
   text-align: center;
