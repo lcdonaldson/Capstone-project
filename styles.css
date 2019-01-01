@@ -535,7 +535,6 @@ input[type=radio]{ display: none; }
   color: rgba(36, 243, 4, 1.99);
 }
 
-
 .missing {
   background-color: transparent;
   color: #CCCC00;
@@ -581,13 +580,13 @@ input[type=radio]{ display: none; }
 
 .main-st {
   border-radius: 4px;
-  background-color: black;
+  background-color: #000000;
   color: #F5F5F5;
   width: 1.1rem;
   height: 390px;
   position: absolute;
   bottom: 114px;
-  left: 33px;
+  left: 2.5rem;
 }
 
 .status-unreported { background-color: white; }
