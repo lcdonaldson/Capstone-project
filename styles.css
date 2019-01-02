@@ -496,7 +496,7 @@ form > h3 {
 }
 
 .btn-group > label {
-  padding: 12px;
+  padding: 0.8rem;
   margin: 12px 5px;
   width: 200px;
   display: inline-block;
