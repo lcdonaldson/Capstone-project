@@ -382,8 +382,8 @@ aside {
 
 .endorse:nth-child(even) {
   display: inline-block;
-  margin-left: 40px;
-  margin-top: 40px;
+  margin-left: 2.7rem;
+  margin-top: 2.7rem;
   vertical-align: top;
 }
 
