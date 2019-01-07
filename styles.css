@@ -518,12 +518,12 @@ form > h3 {
 
 .btn-group input:checked + .missing {
   background-color: #CCCC00;
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn-group input:checked + .help {
   background-color: red;
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn-group input:checked + label i.fa { display: inline-block; }
