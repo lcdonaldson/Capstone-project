@@ -411,7 +411,7 @@ span {
   height: 20rem;
   width: 555px;
   color: #000;
-  border-radius: 4px;
+  border-radius: 0.4em;
   background-color: rgba(0,0,0,0.3);
   position: absolute;
   bottom: 20%;
