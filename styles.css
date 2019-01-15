@@ -264,7 +264,7 @@ aside {
   width: 100px;
   font-size: 12pt;
   color: #FFFFFF;
-  border-radius: 4px;
+  border-radius: 0.1rem;
   border: 1.5px solid #FFFFFF;
 }
 
