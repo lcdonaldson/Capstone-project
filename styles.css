@@ -340,7 +340,7 @@ aside {
 }
 
 .fa-graduation-cap, .fa-car, .fa-university {
-  padding: 0 6px 4px 6px;
+  padding: 0 0.3rem 0.2rem 0.3rem;
   margin: 0;
   color: #666666;
   background-color: #F5F5F5;
