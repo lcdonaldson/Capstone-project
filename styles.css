@@ -438,9 +438,9 @@ span {
 .access > input {
   margin: 0.8rem;
   /*font-weight: bold;*/
-  -webkit-box-shadow: inset 0 2px 32px -6px rgba(0,0,0,0.6);
-  -moz-box-shadow: inset 0 2px 32px -6px rgba(0,0,0,0.6);
-  box-shadow: inset 0 2px 32px -6px rgba(0,0,0,0.6);
+  -webkit-box-shadow: inset 0 2px 32px -0.2rem rgba(0,0,0,0.6);
+  -moz-box-shadow: inset 0 2px 32px -0.2rem rgba(0,0,0,0.6);
+  box-shadow: inset 0 2px 32px -0.2rem rgba(0,0,0,0.6);
   border: none;
   border-radius: 0.5rem;
 }
