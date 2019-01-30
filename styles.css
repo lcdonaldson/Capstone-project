@@ -467,8 +467,8 @@ span {
   display: inline-block;
   width: 700px;
   margin: 0 auto;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
 }
 
 .teacher-request > form > h1 {
