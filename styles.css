@@ -233,7 +233,7 @@ footer {
 
 main {
   /*background-color: magenta;*/
-  min-height: 200px;
+  min-height: 12.5rem;
   flex: 1;
 }
 
