@@ -254,7 +254,7 @@ aside {
 .hero {
   background: radial-gradient(rgba(26, 26, 26, .5), rgba(26, 26, 26, .2)), url("images/one.png");
   background-size: cover;
-  color: #FFFFFF;
+  color: #FFF;
   min-height: 700px; 
 }
 
