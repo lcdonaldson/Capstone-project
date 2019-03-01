@@ -96,7 +96,7 @@ a {
 }
 
 .services .breakout {
-  background-color: #fff;
+  background-color: #FFF;
   display: inline-block;
   width: 13rem;
   margin: 3.4rem;
@@ -163,7 +163,7 @@ a {
   margin: 0.7rem;
   width: 22rem;
   height: 2rem;
-  background-color: #FFFFFF; 
+  background-color: #FFF; 
 }
 
 .msg-btn {
@@ -264,7 +264,7 @@ aside {
   font-size: 0.8em;
   color: #FFFFFF;
   border-radius: 0.1rem;
-  border: 0.2em solid #FFFFFF;
+  border: 0.2em solid #FFF;
 }
 
 .pagename-header h1 {
