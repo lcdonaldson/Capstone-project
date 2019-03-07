@@ -321,7 +321,7 @@ aside {
 }
 
 .breakout > img {
-  border-bottom: 6px solid #F5F5F5;
+  border-bottom: 0.2rem solid #F5F5F5;
   height: 210px;
   width: 210px;
 }
