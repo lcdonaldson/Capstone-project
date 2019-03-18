@@ -615,7 +615,7 @@ input[type=radio]{ display: none; }
   width: 40px;
   position: absolute;
   color: black;
-  bottom: 57px;
+  bottom: 3.5rem;
   right: 38px;
 }
 
