@@ -929,7 +929,7 @@ aside > hr { width: 225px; }
   color: #fff;
   border: none;
   font-size: 14pt;
-  border-radius: 8px;
+  border-radius: 0.5em;
   background-color: green;
   -webkit-box-shadow: inset 0 2px 32px -1px rgba(0,0,0,0.6);
   -moz-box-shadow: inset 0 2px 32px -1px rgba(0,0,0,0.6);
