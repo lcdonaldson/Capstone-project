@@ -366,7 +366,7 @@ aside {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  border: 3px solid #7FBBC5;
+  border: 0.1em solid #7FBBC5;
 }
 
 .endorse p {
