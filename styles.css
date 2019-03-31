@@ -352,8 +352,8 @@ aside {
 .trick {
   width: 0;
   height: 0;
-  border-left: 23px solid transparent;
-  border-right: 23px solid transparent;
+  border-left: 1.2rem solid transparent;
+  border-right: 1.2rem solid transparent;
   border-top: 1rem solid #F5F5F5;
   margin: -0.5rem auto;
 }
