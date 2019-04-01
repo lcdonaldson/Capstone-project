@@ -239,7 +239,7 @@ main {
 
 aside {
   /*background-color: yellow;*/
-  min-height: 200px;
+  min-height: 12.5rem;
   width: 270px;
   border-left: 0.1rem solid grey;
 }
