@@ -453,7 +453,7 @@ span {
 }
 
 .template > div {
-  width: 1060px;
+  width: 66rem;
   min-height: 600px;
   display: inline-block;
   background-color: rgba(26, 26, 26, .0);
