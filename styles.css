@@ -512,17 +512,17 @@ form > h3 {
 
 .btn-group input:checked + .good {
   background-color: rgba(36, 243, 4, 0.64);
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .btn-group input:checked + .missing {
   background-color: #CCCC00;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .btn-group input:checked + .help {
   background-color: red;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .btn-group input:checked + label i.fa { display: inline-block; }
@@ -563,8 +563,8 @@ input[type=radio]{ display: none; }
 .police { background-color: #E0F8FF; }
 
 .content-view {
-  background-color: #ffffff;
-  width: 1000px;
+  background-color: #FFFFFF;
+  width: 62.5rem;
   margin: 0 auto;
   display: flex;
 }
@@ -588,7 +588,7 @@ input[type=radio]{ display: none; }
   left: 2.5rem;
 }
 
-.status-unreported { background-color: white; }
+.status-unreported { background-color: #FFFFFF; }
 
 .status-good { background-color: green; }
 
@@ -630,41 +630,41 @@ input[type=radio]{ display: none; }
 }
 
 .room.fifty-two {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 28px;
   width: 33px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 57px;
   right: 4px;
 }
 
 .room.fifty-five {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 28px;
   width: 32px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 32px;
   right: 138px;
 }
 
 .room.fifty-six-seven {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 28px;
   width: 58px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 0.1rem;
   right: 82px;
 }
 
 .room.fifty-one {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 20px;
   width: 39px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 0.1rem;
   right: 0.2rem;
 }
@@ -672,7 +672,7 @@ input[type=radio]{ display: none; }
 /************ HIGH SCHOOL ***************/
 
 .highschool {
-  border: .15em solid black;
+  border: .15em solid #000000;
   border-radius: 4px;
   width: 186px;
   height: 105px;
@@ -683,41 +683,41 @@ input[type=radio]{ display: none; }
 }
 
 .room.LR {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 32px;
   width: 30px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 64px;
   right: 150px;
 }
 
 .room.three-o-three {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 1.1rem;
   width: 50px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 64px;
   right: 95px;
 }
 
 .room.three-o-nine {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 34px;
   width: 45px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 63px;
   right: 37px;
 }
 
 .room.MR {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 34px;
   width: 30px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 63px;
   right: 3px;
 }
@@ -728,32 +728,32 @@ input[type=radio]{ display: none; }
 }
 
 .room.three-o-two {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 30px;
   width: 60px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 1px;
   right: 118px;
 }
 
 .room.office {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 30px;
   width: 44px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 1px;
   right: 40px;
   
 }
 
 .room.three-twelve {
-  border: .15em solid black;
+  border: .15em solid #000000;
   height: 2rem;
   width: 35px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 1px;
   right: 1px;
 }
