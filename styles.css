@@ -264,7 +264,7 @@ aside {
   font-size: 0.8em;
   color: #FFFFFF;
   border-radius: 0.1rem;
-  border: 0.2em solid #FFF;
+  border: 0.2em solid #FFFFFF;
 }
 
 .pagename-header h1 {
@@ -785,7 +785,7 @@ input[type=radio]{ display: none; }
 /********** GYM **********/
 
 .room.old-gym {
-  border: .15em solid black;
+  border: .15em solid #000000;
   width: 107px;
   height: 121px;
   position: absolute;
@@ -797,7 +797,7 @@ input[type=radio]{ display: none; }
 }
 
 .room.new-gym {
-  border: .15em solid black;
+  border: .15em solid #000000;
   width: 115px;
   height: 120px;
   position: absolute;
@@ -810,12 +810,12 @@ input[type=radio]{ display: none; }
 }
 
 .room.band {
-  border: .15em solid black;
+  border: .15em solid #000000;
   border-radius: 4px;
   height: 37px;
   width: 45px;
   position: absolute;
-  color: black;
+  color: #000000;
   bottom: 70px;
   right: 4px;
 }
