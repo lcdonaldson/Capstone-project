@@ -599,7 +599,7 @@ input[type=radio]{ display: none; }
 /************ CTE ***************/
 
 .hs-cte {
-  border: .15em solid black;
+  border: .15em solid #000000;
   border-radius: 0.2rem;
   width: 175px;
   height: 5.6rem;
