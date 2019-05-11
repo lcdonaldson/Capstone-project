@@ -868,8 +868,8 @@ input[type=radio]{ display: none; }
 .indicator-unreported {
   margin-right: 10px;
   margin-left: 10px;
-  background: white;
-  border: 1px solid black;
+  background: #fff;
+  border: 1px solid #000;
   height: 30px;
   width: 30px;
 }
