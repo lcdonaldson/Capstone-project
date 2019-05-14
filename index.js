@@ -55,7 +55,7 @@ $(function () {
 
     $('.room-teacher-options').on('submit', function (event) {
 
-    // **************** Check to see if password field is empty ************
+         // **** Check to see if password field is empty ***
 
         if ($('.set-password').val() !== '') {
             var statusId = 3
@@ -74,9 +74,7 @@ $(function () {
             url:'http://localhost:3000/rooms/' + roomId,   
             type: 'PUT',
             data: updateInfo
-        }).done(function (data) {
-  
-        })
+        }).done(function (data) {})
        
         location.href = 'http://localhost:8080/thank-you.html'
         event.preventDefault()  
@@ -123,19 +121,16 @@ $(function () {
 
     $('.reset-btn').on('click', function () {
         $.get(roomsUrl)
-            .done(function (rooms) {
-               rooms.forEach(function (room) {    
-                var updateStatus = {
-                    statusId: 0 
-                }
-                $.ajax({
-                    url: 'http://localhost:3000/rooms/' + room.id,
-                    type: 'PUT',
-                    data: updateStatus
-                })
-
-               })
+         .done(function (rooms) {
+             rooms.forEach(function (room) {    
+                 var updateStatus = { statusId: 0 }
+                 $.ajax({
+                     url: 'http://localhost:3000/rooms/' + room.id,
+                     type: 'PUT',
+                     data: updateStatus
+                 })
             })
+        })
     })
 
     // ******************** TIMER *******************
@@ -197,12 +192,4 @@ $(function () {
         }]
     })
             
-
 })
-
-
-
-    
-
-
-
