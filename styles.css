@@ -255,7 +255,7 @@ aside {
   background: radial-gradient(rgba(26, 26, 26, .5), rgba(26, 26, 26, .2)), url("images/one.png");
   background-size: cover;
   color: #FFF;
-  min-height: 700px; 
+  min-height: 43.75rem; 
 }
 
 .login > button {
