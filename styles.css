@@ -947,7 +947,7 @@ aside > hr { width: 225px; }
 
 .reset-btn {
   border: none;
-  border-radius: 15px;
+  border-radius: 0.9rem;
   color: #fff;
   padding: 0.8rem;
   background: rgba(124,212,244,1);
