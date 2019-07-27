@@ -708,18 +708,18 @@ input[type=radio]{ display: none; }
   width: 45px;
   position: absolute;
   color: #000000;
-  bottom: 63px;
-  right: 37px;
+  bottom: 3.93rem;
+  right: 2.31rem;
 }
 
 .room.MR {
   border: .15em solid #000000;
-  height: 34px;
-  width: 30px;
+  height: 2.12rem;
+  width: 1.87rem;
   position: absolute;
   color: #000000;
-  bottom: 63px;
-  right: 3px;
+  bottom: 3.93rem;
+  right: 0.18rem;
 }
 
 .highschool > p {
