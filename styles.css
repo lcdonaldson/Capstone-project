@@ -621,7 +621,7 @@ input[type=radio]{ display: none; }
 
 .room.fifty-four {
   border: .15em solid black;
-  height: 28px;
+  height: 1.75rem;
   width: 1.2rem;
   position: absolute;
   color: #000;
