@@ -907,7 +907,7 @@ aside > h1 {
 aside > hr { width: 225px; }
 
 .time {
-  width: 250px;
+  width: 15.6rem;
   height: 500px;
   overflow-y: scroll;
 }
