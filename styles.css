@@ -661,7 +661,7 @@ input[type=radio]{ display: none; }
 
 .room.fifty-one {
   border: .15em solid #000000;
-  height: 20px;
+  height: 1.25rem;
   width: 39px;
   position: absolute;
   color: #000000;
