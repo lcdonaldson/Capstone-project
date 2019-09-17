@@ -885,7 +885,7 @@ input[type=radio]{ display: none; }
 .indicator-missing-student {
   margin-right: 10px;
   background-color: yellow;
-  height: 30px;
+  height: 1.8rem;
   width: 30px;
 }
 
