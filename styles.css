@@ -886,7 +886,7 @@ input[type=radio]{ display: none; }
   margin-right: 10px;
   background-color: yellow;
   height: 1.8rem;
-  width: 30px;
+  width: 1.8rem;
 }
 
 .indicator-help {
