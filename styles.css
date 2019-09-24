@@ -892,7 +892,7 @@ input[type=radio]{ display: none; }
 .indicator-help {
   margin-right: 0.5rem;
   background-color: red;
-  height: 30px;
+  height: 1.8rem;
   width: 30px;
 }
 
