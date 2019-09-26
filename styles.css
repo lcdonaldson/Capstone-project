@@ -754,7 +754,7 @@ input[type=radio]{ display: none; }
   width: 35px;
   position: absolute;
   color: #000000;
-  bottom: 1px;
+  bottom: 0.1rem;
   right: 1px;
 }
 
