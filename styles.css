@@ -871,7 +871,7 @@ input[type=radio]{ display: none; }
   background: #FFF;
   border: 1px solid #000;
   height: 1.9rem;
-  width: 30px;
+  width: 1.9rem;
 }
 
 .indicator-good {
