@@ -812,7 +812,7 @@ input[type=radio]{ display: none; }
 .room.band {
   border: .15em solid #000000;
   border-radius: 4px;
-  height: 37px;
+  height: 2.31rem;
   width: 45px;
   position: absolute;
   color: #000000;
