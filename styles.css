@@ -698,7 +698,7 @@ input[type=radio]{ display: none; }
   width: 50px;
   position: absolute;
   color: #000000;
-  bottom: 64px;
+  bottom: 4rem;
   right: 95px;
 }
 
