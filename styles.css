@@ -645,7 +645,7 @@ input[type=radio]{ display: none; }
   width: 2rem;
   position: absolute;
   color: #000000;
-  bottom: 32px;
+  bottom: 2rem;
   right: 138px;
 }
 
