@@ -684,7 +684,7 @@ input[type=radio]{ display: none; }
 
 .room.LR {
   border: .15em solid #000000;
-  height: 32px;
+  height: 2rem;
   width: 30px;
   position: absolute;
   color: #000000;
