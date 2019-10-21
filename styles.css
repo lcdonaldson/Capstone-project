@@ -822,7 +822,7 @@ input[type=radio]{ display: none; }
 
 .room.weights {
   border: .15em solid black;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   height: 37px;
   width: 50px;
   position: absolute;
