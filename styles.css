@@ -811,7 +811,7 @@ input[type=radio]{ display: none; }
 
 .room.band {
   border: .15em solid #000000;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   height: 2.31rem;
   width: 45px;
   position: absolute;
