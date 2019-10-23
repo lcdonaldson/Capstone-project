@@ -673,7 +673,7 @@ input[type=radio]{ display: none; }
 
 .highschool {
   border: .15em solid #000000;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   width: 186px;
   height: 105px;
   position: absolute;
