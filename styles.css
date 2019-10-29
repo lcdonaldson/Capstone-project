@@ -834,7 +834,7 @@ input[type=radio]{ display: none; }
 /************** street ****************/
 
 .east {
-  border-radius: 4px;
+  border-radius: 0.25rem;
   background-color: black;
   width: 1.01rem;
   height: 394px;
