@@ -853,7 +853,7 @@ input[type=radio]{ display: none; }
   padding-left: 250px;
   color: #F5F5F5;
   bottom: 134px;
-  right: 53px;
+  right: 3.31rem;
 }
 
 .legend { display: flex; }
