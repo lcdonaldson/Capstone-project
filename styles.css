@@ -801,7 +801,7 @@ input[type=radio]{ display: none; }
   width: 115px;
   height: 120px;
   position: absolute;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   opacity: 1;
   padding-top: 33px;
   padding-left: 5px;
