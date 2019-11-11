@@ -835,7 +835,7 @@ input[type=radio]{ display: none; }
 
 .east {
   border-radius: 0.25rem;
-  background-color: black;
+  background-color: #000000;
   width: 1.01rem;
   height: 394px;
   position: absolute;
