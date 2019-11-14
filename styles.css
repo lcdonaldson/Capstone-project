@@ -913,7 +913,7 @@ aside > hr { width: 14rem; }
 }
 
 .time > ul > li {
-  border: 1px solid #000;
+  border: 1px solid #000000;
   border-radius: 0.3rem;
   list-style: none;
   width: 11.25rem;
