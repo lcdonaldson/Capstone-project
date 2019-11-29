@@ -740,7 +740,7 @@ input[type=radio]{ display: none; }
 .room.office {
   border: .15em solid #000000;
   height: 1.8rem;
-  width: 44px;
+  width: 2.75rem;
   position: absolute;
   color: #000000;
   bottom: 1px;
