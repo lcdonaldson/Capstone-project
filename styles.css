@@ -948,7 +948,7 @@ aside > hr { width: 14rem; }
 .reset-btn {
   border: none;
   border-radius: 0.9rem;
-  color: #fff;
+  color: #FFFFFF;
   padding: 0.8rem;
   background: rgba(124,212,244,1);
   background: -moz-linear-gradient(top, rgba(124,212,244,1) 0%, rgba(124,212,244,1) 1%, rgba(40,104,200,1) 49%, rgba(43,188,233,1) 94%);
