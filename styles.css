@@ -762,7 +762,7 @@ input[type=radio]{ display: none; }
 
 .room.library {
   border: .15em solid black;
-  width: 75px;
+  width: 4.68rem;
   height: 146px;
   position: absolute;
   border-radius: 8px;
