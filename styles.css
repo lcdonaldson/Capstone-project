@@ -827,7 +827,7 @@ input[type=radio]{ display: none; }
   width: 50px;
   position: absolute;
   color: black;
-  bottom: 4px;
+  bottom: 0.25rem;
   right: 4px;
 }
 
