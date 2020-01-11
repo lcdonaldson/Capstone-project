@@ -828,7 +828,7 @@ input[type=radio]{ display: none; }
   position: absolute;
   color: black;
   bottom: 0.25rem;
-  right: 4px;
+  right: 0.25rem;
 }
 
 /************** street ****************/
