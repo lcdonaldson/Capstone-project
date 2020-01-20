@@ -755,7 +755,7 @@ input[type=radio]{ display: none; }
   position: absolute;
   color: #000000;
   bottom: 0.1rem;
-  right: 1px;
+  right: .06rem;
 }
 
 /********** Library **********/
