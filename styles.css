@@ -821,7 +821,7 @@ input[type=radio]{ display: none; }
 }
 
 .room.weights {
-  border: .15em solid black;
+  border: .15em solid #000000;
   border-radius: 0.25rem;
   height: 2.31rem;
   width: 3.12rem;
