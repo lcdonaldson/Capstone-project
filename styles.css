@@ -761,7 +761,7 @@ input[type=radio]{ display: none; }
 /********** Library **********/
 
 .room.library {
-  border: .15em solid black;
+  border: .15em solid #000000;
   width: 4.68rem;
   height: 146px;
   position: absolute;
