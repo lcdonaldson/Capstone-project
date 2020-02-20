@@ -541,7 +541,7 @@ input[type=radio]{ display: none; }
 
 .help {
   background-color: transparent;
-  color: red;
+  color: #FF0000;
 }
 
 .confirm {
