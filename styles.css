@@ -869,7 +869,7 @@ input[type=radio]{ display: none; }
   margin-right: 0.6rem;
   margin-left: 0.6rem;
   background: #FFFFFF;
-  border: 1px solid #000000;
+  border: 0.2em solid #000000;
   height: 1.9rem;
   width: 1.9rem;
 }
