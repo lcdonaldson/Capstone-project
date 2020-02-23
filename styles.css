@@ -594,7 +594,7 @@ input[type=radio]{ display: none; }
 
 .status-missing-student { background-color: yellow; }
 
-.status-help { background-color: red; }
+.status-help { background-color: #FF0000; }
 
 /************ CTE ***************/
 
