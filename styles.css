@@ -433,7 +433,7 @@ span {
   width: 15.31rem;
 }
 
-.choose-user { background-color: green; }
+.choose-user { background-color: #00ff00; }
 
 .access > input {
   margin: 0.8rem;
