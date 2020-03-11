@@ -590,7 +590,7 @@ input[type=radio]{ display: none; }
 
 .status-unreported { background-color: #FFFFFF; }
 
-.status-good { background-color: green; }
+.status-good { background-color: #00FF00; }
 
 .status-missing-student { background-color: yellow; }
 
