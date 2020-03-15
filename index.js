@@ -1,6 +1,5 @@
 
 $(function () {
-
     var teachersUrl = 'http://localhost:8080/teachers.html' 
     var policeUrl = 'http://localhost:8080/police.html' 
     var adminUrl = 'http://localhost:8080/admin.html' 
@@ -19,8 +18,7 @@ $(function () {
             $(".clear").addClass("solid")
         } else if (scroll <= 650){
             $(".clear").removeClass("solid")
-        } 
-            
+        }     
     })
 
     // ******* Only run this code if we need to populate the dropdown for rooms *******
@@ -34,7 +32,6 @@ $(function () {
             var htmlResult = template(rooms)
             roomDropdown.html(htmlResult)
         })
-
     }
 
     // ************** Login Page choosing the user **************
