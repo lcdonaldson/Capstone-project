@@ -2,7 +2,8 @@
        Root Variables
 *******************************/
 :root {
-  --white: #FFFFFF
+  --white: #FFFFFF;
+  --dark-grey: #777777;
 }
 
 /*******************************
@@ -63,7 +64,7 @@ a {
   width: 100vw;
   left: 0;
   top: 0;
-  background-color: #777777;
+  background-color: var(--dark-grey);
 }
 
 /*******************************
