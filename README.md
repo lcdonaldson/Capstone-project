@@ -1,7 +1,5 @@
 #TIPS
 
- ### As a special note...Some recent experiences with law enforcement have utterly and totally convinced me not to release this project the way it is currently written in concept. Instead I think it needs to be modified to notify parents and school administrators first. If they choose they can involve police.
-
 This project was the final portion of my experience at Rockit Bootcamp in Tempe AZ. However, this idea has come from my
 years of teaching and recognizing problems in the public education system.
 
