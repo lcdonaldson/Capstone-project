@@ -89,29 +89,29 @@ $(function () {
 
     if (policeUrl == location.href) {
         $.get(roomsUrl)
-            .done(function (rooms) {
-                var status = rooms.statusId
-                rooms.forEach(function (room) {   
-                    room.lastreportedtime = moment(room.lastreportedtime).format("h:mm:ss a")
+         .done(function (rooms) {
+             var status = rooms.statusId
+             rooms.forEach(function (room) {   
+                 room.lastreportedtime = moment(room.lastreportedtime).format("h:mm:ss a")
 
-                    if(room.statusId === 0) {
-                        status = "unreported"
-                    } else if (room.statusId === 1) {
-                        status = "good"
-                        $('#room-'+room.id).addClass('status-good')
-                    } else if (room.statusId === 2) {
-                        status = "missing student"
-                        $('#room-'+room.id).addClass('status-missing-student')
-                    } else if (room.statusId === 3) {
-                        status = "help"
-                        $('#room-'+room.id).addClass('status-help')
-                    }
-                    room.statusState = status
-                })
-                var htmlResult = timeTemplate({rooms: rooms})
+                 if(room.statusId === 0) {
+                     status = "unreported"
+                 } else if (room.statusId === 1) {
+                     status = "good"
+                     $('#room-'+room.id).addClass('status-good')
+                 } else if (room.statusId === 2) {
+                     status = "missing student"
+                     $('#room-'+room.id).addClass('status-missing-student')
+                 } else if (room.statusId === 3) {
+                     status = "help"
+                     $('#room-'+room.id).addClass('status-help')
+                 }
+                 room.statusState = status
+             })
+             var htmlResult = timeTemplate({rooms: rooms})
                 
-                $('.time').append(htmlResult) 
-            })   
+             $('.time').append(htmlResult) 
+         })   
     }
      
     //**************** ADMIN ******************
