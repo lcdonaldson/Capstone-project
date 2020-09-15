@@ -17,7 +17,7 @@ Administration play a major role in this project too. They are many times, the i
 they arrive on scene. Their main job with this app however, is to evaluate the effectiveness of the response in their schools. They also have the ability to reset the room status back to unreported when the drill is completed. 
 
 This project is only the front-end side of the application. A robust and secure backend could be added for a fullstack application in the future. There are still lots of bugs working with db.json. I think this project will need to integrate some tools that use GPS location services and most importantly a module specifically to map out school floorplans. Drawing these for each individual school would be nearly impossible. This software is propriatary and as such I haven't revealed all of its features as some of them deal with security and private information relevant to school districts. This Application is set for pilot testing in the 4th quarter of 
-2020. Any comments or suggestions are welcome. Please enjoy TIPS.
+2020. Any comments or suggestions are welcome.
 
 http://lcdonaldson.github.io/Capstone-project.
 
