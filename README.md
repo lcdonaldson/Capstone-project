@@ -6,7 +6,7 @@ years of teaching and recognizing problems in the public education system.
 TIPS stands for Teacher Informed Police Software and it was designed to open up communication lines in the event of a 
 school lockdown. In the past, Teachers have sat quietly in their rooms trying to keep their students quiet as well while
 waiting for an unknown amount of time for police to show up and unlock their doors. I wanted to make an application 
-that would let teachers tell police the status of their room, and in turn, police could visually see the report that 
+that would let teachers tell police the status of their room, and in turn, police could visually see the notification that 
 the teacher had given on a map.
 
 Police still have to do their job and scour all of the classrooms, but this app would let them see if and where the 
