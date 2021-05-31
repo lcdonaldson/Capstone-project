@@ -1,6 +1,6 @@
 #TIPS
 
-This project was the final portion of my experience at Rockit Bootcamp in Tempe AZ. However, this idea has come from my
+This project was the final project at Rockit Bootcamp in Tempe AZ. However, this idea has come from my
 years of teaching and recognizing problems in the public education system.
 
 TIPS stands for Teacher Informed Police Software and it was designed to open up communication lines in the event of a 
